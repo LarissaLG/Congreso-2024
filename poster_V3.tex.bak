@@ -1,0 +1,361 @@
+\documentclass[a0paper,portrait]{baposter}
+
+\usepackage{relsize}
+\usepackage{bbding}
+\usepackage{pifont}
+
+\usepackage[utf8]{inputenc} %unicode support
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,graphicx}
+\usepackage[spanish, es-tabla]{babel}    \spanishdecimal{.}
+\usepackage{float}
+\usepackage{physics}							
+\usepackage{setspace}
+\usepackage{tikz,pgfplots}
+
+\usepackage[font=scriptsize,labelfont=bf]{caption}
+\usepackage[theorems,skins]{tcolorbox}
+
+\usepackage{xcolor}
+	\definecolor{bluemath}{rgb}{0, 1, 0}
+	\definecolor{blueUNAM}{RGB}{0,60,113}
+	\definecolor{orangemath}{rgb}{1, .5, .5}
+	\definecolor{lblue}{RGB}{134,165,169}
+	\definecolor{gris}{RGB}{118,118,118}
+	\definecolor{botwgreen1}{RGB}{83,111,80}	
+	\definecolor{botwgreen2}{RGB}{146,197,130}		
+%\selectcolormodel{cmyk}
+	\definecolor{darkgreen}{cmyk}{0.8,0,0.8,0.45}
+	\definecolor{lgreen}{cmyk}{0.8,0,0.8,0.25}
+
+\graphicspath{{figures/}} % Directory in which figures are stoorange
+
+\newcommand*\tick{\item[\color{orange}  \ArrowBoldDownRight ]}
+\newcommand{\compresslist}{%
+	\setlength{\itemsep}{0pt}%
+	\setlength{\parskip}{1pt}%
+	\setlength{\parsep}{0pt}%
+	}
+
+\begin{document}
+\typeout{Poster rendering started}
+\background{ }
+\begin{poster}{
+	grid=false,
+	eyecatcher= true, 
+	borderColor=white,%bordercol,
+	bgColorOne=white, % Background color for the gradient on the left side of the poster
+	bgColorTwo=white, % Background color for the gradient on the right side of the poster
+	headerborder=open, % Adds a border around the header of content boxes
+	headerColorOne=blueUNAM,%darkgreen,%headercol1,
+	headerColorTwo=blueUNAM,%darkgreen,%botwgreen2,%headercol2,
+	headerFontColor=white,%headerfontcol,
+	% Only simple background color used, no shading, so boxColorTwo isn't necessary
+	boxColorOne=white,%boxcolor,
+	headershape=rectangle,%roundedright,
+	headerfont=\Large\textsf,%\Large\sf\bf,
+	textborder=none,%rectangle,
+	background=user,
+	headerborder=open,
+  	boxshade=plain,
+ 	headerheight=0.11\textheight,% 4cm,
+ 	columns = 4, 
+ 	colspacing=.5em, % Column spacing
+ 	linewidth=2pt % Width of the border lines around content boxes
+}
+%
+%----------------------------------------------------------------------------------------
+%	TITLE AND AUTHOR NAME
+%----------------------------------------------------------------------------------------
+%%
+{
+\includegraphics[width=2.85cm]{unam_logo}
+} 
+{%Titulo
+	\huge\textsf %Sans Serif
+	{\noindent
+	Arreglo bidimensional desordenado de nanopartículas plasmónicas esféricas y su 	uso como biosensor}
+}
+{%Autores
+	\sf%\vspace{-0.25em}\\ 
+	Urrutia Anguiano, Jonathan A.$^1$ y Reyes Coronado, Alejandro$^2$
+	\vspace{0.1em}\\
+	\footnotesize{Departamento de Física, Facultad de Ciencias, Universidad Nacional 	Autónoma de México
+	\vspace{0.2em}\\
+	$^1$jaurrutia.95@ciencias.unam.mx, $^2$coronado@ciencias.unam.mx}
+}
+{
+\includegraphics[width=2.85cm]{logociencias}
+} %the author(s)      
+%-------Resumen---------------------------
+%-------abstract---------------------------
+\headerbox{\ding{182} Resumen}{name=abstract,column=0,row=0, span=4}{\footnotesize 
+Actualmente se ha logrado aumentar la resolución de {\color{orange} \bf biosensores} mediante arreglos ordenados de nanopartículas plasmónicas cilíndricas. Sin embargo, la fabricación de arreglos ordenados de nanopartículas presenta una complicación técnica que se traduce en un alto costo. En este trabajo se estudia la {\color{orange} \bf reflectancia de sistemas bidimensionales de nanopartículas esféricas desordenados}, considerando el {\color{orange} \bf Modelo de Esparcimiento Coeherente}, que predice, además de las resonancias plasmónicas típicas, un {\color{orange} \bf nuevo modo} a frecuencias menores. En este trabajo se analizan las condiciones en las que esta excitación aparece y se estudia su comportamiento como función del ángulo de incidencia, longitud de onda y fracción de cubierta. Así mismo, se propone el uso de este nuevo modo para biosensado.
+}
+%-------Resumen---------------------------
+%-------abstract---------------------------
+
+
+
+%-------Introducción---------------------------
+%-------intro---------------------------
+\headerbox{\ding{183} Introducción}{name=intro,column=0,below=abstract,span=2}{\footnotesize
+Los {\color{orange} \textbf{biosensores}} emplean los plasmones polaritones de superficie {\color{orange}(SPP)} para medir cambios en el índice de refracción de la matriz $n_m$ \cite{Lechuga}. Se ha propuesto el uso de arreglos ordenados de nanopartículas (NPs) cilíndricas para mejorar la sensibilidad de los biosensores \cite{Kabashin2009}.\\
+%
+\begin{tikzpicture}[scale=.8]
+	\def\a{.3}
+	\def\d{.3}
+	\def\dd{.2}
+	\def\l{2.5}
+	\def\ll{.05}
+	
+	\begin{scope}[shift={(0,.75)}]
+
+	\fill[blue, opacity = .2] (0,-\l)--(\l,-\d)--(-\l,-\d);
+	\draw[blue, opacity = .5,thick] (0,-\l)--(\l,-\d)--(-\l,-\d)--(0,-\l);
+
+	\draw[blue, dashed] (0,0)--(0,-\l*.5);
+	\path (0,0)++(-90-45*.5:\l*.3)node{$\theta_i$};       % Angle
+	\draw[latex - latex](-90:\l*.4)arc(-90:-90-45*.89:\l*.4);
+
+	\shadedraw[	top color = yellow,				%%%%	Color de arriba
+			bottom color =yellow,				%%%%	Color de abajo
+			middle color = white, 			%%	Color de en medio
+			shading angle = 35]			%%%%	Ángulo de gradiente
+		 (-\l,-\d) rectangle (\l,\dd);
+% Interface
+	\draw[yellow,line width=.5pt](-\l,\dd)--(\l,\dd)--(\l,-\d)--(-\l,-\d)--(-\l,\dd); %%..5pt, interface]
+
+% Media names
+	\node at (0,1) { };
+	\node at (0,-1.5) {\footnotesize Sustrato}; 
+	\node at (0,-1.9) {\footnotesize $\; n_s$}; 
+	\node at (-1.5,-.1) {\footnotesize Metal };
+	\node at (-1.9,.5) {\footnotesize Matriz $\; n_m$}; 
+
+	\draw[latex -, thick, red, line width = 2](225:.5)--(225:2.5) node[anchor= north]{$\vb{k}^i$};
+	\node at (-1.25,-.5) {\color{red} $\lambda$};
+	\draw[- latex, thick, red, line width= 2](-45:.5)--(-45:2.5)node[anchor=north ]{$\vb{k}^r$};
+	\draw[- latex, thick,   line width = 1](.5,-\d)--(1.5,-\d) node[anchor= north west ]{$\vb{k}_x$};
+
+	\foreach \i in {0,4,8,12}{
+	\draw[thick, red,line width = 2,] (\i*\ll,\dd) sin (\i*\ll+\ll,\dd*2) cos (\i*\ll+2*\ll,\dd) sin (\i*\ll+3*\ll,0) cos (\i*\ll+4*\ll,\dd);
+	}
+	
+	\draw[- latex, thick, red,  line width = 2](15.5*\ll,\dd)--(2,\dd) node[anchor= south west ]{SPP};
+	
+	\draw[fill = red, opacity = .35] (-.25,-\d) ..controls (-.025,.25-\d) .. (0,.75-\d)
+											..controls (.025,.25-\d) .. (.25,-\d);  %1st evanescent wave
+	\draw[fill = red, opacity = .35] (-.2,0-\d) ..controls (-.075,.125-\d) .. (0.05,.375-\d)
+												..controls (.075,.125-\d) .. (.3,0-\d);  %2nd evanescent wave
+	\draw[fill = red, opacity = .35] (-.15,0-\d) ..controls (-.025,.0625-\d) .. (0.1,.1875-\d)
+												..controls (.175,.0625-\d) .. (.35,0-\d);  %3rd evanescent wave
+	\draw[fill = red, opacity = .35] (-.1,0-\d) ..controls (.025,.03125-\d) .. (0.15,.09375-\d)
+												..controls (.225,.03125-\d) .. (.4,0-\d);  %4th evanescent wave
+
+\node at (0,-3) {\footnotesize Película delgada};
+\node at (0,-3.5) {\footnotesize sobre sustrato};
+\end{scope}
+
+
+\node[inner sep=0pt] (nanocilindros) at (7,.5){\includegraphics[scale=.55]{Nanorods.png}};
+\node at (9,-1) {\footnotesize Arreglo de nanocilindros};
+\node at (9,-1.5) {\footnotesize  periódicos. Tomada de \cite{Kabashin2009}};
+\node[inner sep=0pt] (graf) at (9,-3){\includegraphics[scale=.125]{CSM_3D-Prism.png}};	
+\node at (5,-3) {\footnotesize Arreglo de NPs esféricas};
+\node at (6,-3.5) {\footnotesize desordenadas}; 
+
+\draw[latex - latex,  thick,   line width = 4, orange](5,.5) -- (3,0) -- (6,-2);
+
+\end{tikzpicture}
+%
+La propuesta de este trabajo es emplear  {\color{orange}\textbf{arreglos bidimensionales desordenados de NPs esféricas}} por su menor costo y tiempo de producción. Para esta configuración se tiene un modelo teórico para su respuesta óptica.
+}
+%-------Introducción---------------------------
+%-------intro---------------------------
+
+
+
+%-------CSM---------------------------
+%-------csm---------------------------
+\headerbox{\ding{184} Modelo de esparcimiento coherente (CSM)}{name=csm,column=0,below=intro,span=2}{\footnotesize
+El coeficiente de amplitud de reflexión, según el CSM, para  una monocapa de NPs esféricas desordenadas de radio $a$, con una fracción de cubierta $\Theta$, e inmersa en un medio con índice de refracción $n_m$ está dado por  \cite{CSM}:\\
+$$ \tcboxmath[colback=orange!30!white  ,colframe=orange]{  r_{coh}(\theta) = \frac{-\alpha S_m(\pi-2\theta)}{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_m^2 (\pi-2\theta) \right]},}$$
+      $$ \alpha = \frac{2\Theta}{x^2\cos\theta},\qquad x=k_0an_m, \qquad S_m\text{: Elementos de la matriz de esparcimiento.}$$
+ \begin{minipage}[c]{.45\linewidth}
+ Al considerar un sustrato con índice de refracción $n_s$, entonces, para el sistema sustrato-monocapa-matriz, se tiene que
+$$ \tcboxmath[colback=orange!30!white ,colframe=orange]{r = \frac{r_{sm}(\theta_i)+r_{coh}(\theta_t)e^{i\beta}}{1+r_{sm}(\theta_i)r_{coh}(\theta_t)e^{i\beta}}, }$$
+con $\beta=2 k_0 a n_m\cos\theta_t$ y $r_{sm}$ el coeficiente de reflexión de Fresnel entre el sustrato y la matriz.
+\end{minipage}
+ \begin{minipage}[c]{.52\linewidth}
+ 		\begin{tikzpicture}[scale=.68] % ATR
+\def\a{.5}
+\def\d{.5}
+
+\fill[blue, opacity=.25] (-4.5,-8*\d) rectangle (4.5,-\d);
+
+\foreach \x in {-4,-2.9,-1.1,0,1.2,2.4,3.8}{
+\fill[ball color=yellow, opacity=1] (\x,0) circle(\a);}
+
+
+\draw[thick, dashed] (-4.5,-\d) rectangle (4.5,\d);
+
+\draw[latex -, thick, red, line width=2.5](0,0)--(-120:.5)--(-140:4) node[anchor=north west]{$\;\;\va{k}_i$};
+\draw[- latex, thick, red, line width=2.5](0,0)--(-60:.5)--(-40:4)node[anchor=north east]{$\va{k}_{r}$};
+
+\draw[- latex, thick, blue] (0,0)--(-90:3.5) node[anchor = north]{$-z$};
+\draw[- latex, thick, blue] (0,0)--(0:3) node[anchor = west]{$x$};
+
+\path (0,0)++(-105:2.65)node[anchor=north east, blue]{$\theta_i$}; 
+\draw[- latex, thick, blue](-90:2.5)arc(-90:-45:2.5);
+\path (0,0)++(-75:2.65)node[anchor=north west, blue]{$\theta_i$}; 
+\draw[- latex, thick, blue](-90:2.5)arc(-90:-135:2.5);
+
+\draw[thick, blue, dashed](0,0) -- (-120:2.25);
+\draw[thick, blue, dashed](0,0) -- (-60:2.25);
+\path (0,0)++(-90-50/2:1.75)node[anchor=north west, blue]{$\theta_t$}; 
+\draw[- latex, thick, blue](-90:1.5)arc(-90:-60:1.5);
+\path (0,0)++(-90+50/2:1.75)node[anchor=north east, blue]{$\theta_t$}; 
+\draw[- latex, thick, blue](-90:1.5)arc(-90:-120:1.5);
+
+\draw[- latex, thick, purple] (0,0)--(60:2) node[anchor = south west ]{$z'$};
+\draw[- latex, thick, purple] (0,0)--(150:2) node[anchor =  east]{$-x'$};
+\path (0,0)++(30:1.25)node[anchor=south west, purple]{$\theta'$}; 
+\path (0,0)++(30:1.25)node[anchor=south west, blue]{$\;\;\; =  \pi - 2\theta_t$}; 
+\draw[- latex, thick, purple](60:1.2)arc(60:-60:1.2);
+
+\node at (3.5,1.45) {(Agua)};
+\node at (-4,1) {$\; n_m$};
+\node at (-4,0) {$\; n_p$};
+\node at (-4,-1) {$\; n_s$};
+\node at (-3.5,-1.5) {(Vidrio)};	
+\end{tikzpicture} 
+\end{minipage}	
+
+}
+%-------CSM---------------------------
+%-------csm---------------------------
+
+
+
+%-------modo plasmónico guiado---------------------------
+%-------nmodo---------------------------
+\headerbox{\ding{185} Modo colectivo en arreglos desordenados vs. SPP}{name=nmodo,span=2,column=0,below=csm}{\footnotesize
+El CSM predice un {\color{orange}\bf modo colectivo} (puntos amarillos) que se excita a {\color{orange}\bf energías menores a las de la resonancia dipolar} (línea punetada verde) de una esfera individual. El modo {\color{orange}\bf se sintoniza} según los parámetros $a$, $\Theta$ y el material de las NPs.\\
+{\hspace*{.75cm}\begin{tikzpicture}
+\node[inner sep=0pt] (graf) at (0,0){\includegraphics[scale=.55]{0-2D_Grid}};
+\node[inner sep=0pt] (graf) at (4.85,.3){\includegraphics[scale=.86]{0-IBar_v}};
+\end{tikzpicture}
+}
+
+}
+%-------modo plasmónico guiado---------------------------
+%-------nmodo---------------------------
+
+%-------modo plasmónico guiado---------------------------
+%-------nmodo---------------------------
+\headerbox{\ding{186} Comparación para el sensado}{name=nmodo,span=2,column=2,below=abstract}{\footnotesize
+Para poder comparar el SPP y el modo colectivo del CSM, se emplea la figura  de mérito $FOM$ definida como \cite{Lechuga}
+$$S =  \frac{\Delta\lambda}{\Delta n_m},\;\;\;\;\;
+\;\;\;\;\;
+\;\;\;\;\;
+FOM = \frac{S}{\Gamma},$$
+donde $S$ es la sensibilidad,  $\Delta\lambda$ es el corrimiento al rojo de la excitación y $\Delta n_m$ es el cambio en el índice de refracción de la matriz;
+$\Gamma$ es el ancho de la resonancia.\\
+
+\vspace{1em}
+\begin{tikzpicture}
+\node at (0,1.5) {\footnotesize SPP Au: $d=45$ nm };
+\node at (0,1) {\footnotesize SPP Ag: $d=45$ nm };
+
+\node at (0,0) {\footnotesize CSM Au: $a=30$ nm, $\Theta=0.125$ };
+\node at (0,-.5) {\footnotesize CSM Ag: $a=40$ nm, $\Theta=0.1$};
+
+
+\node[inner sep=0pt] (graf) at (5.75,0){\includegraphics[scale=.75]{P-polSPP}};
+\node[inner sep=0pt] (graf) at (0,-4){\includegraphics[scale=.75]{P-polCSM}};
+\node[inner sep=0pt] (graf) at (5.75,-4){\includegraphics[scale=.75]{S-polCSM}};
+\end{tikzpicture}
+
+%\begin{minipage}{\linewidth} \centering
+%Al comparar el SPP para oro y la monocapa de NPs de oro:
+%%\begin{tabular}{c||c|cc}
+%%$\theta_i$ & SPP [$\pm 0.2$ RIU$^{-1}$]	  & CSM-P-Pol 	 [$\pm 0.05$ RIU$^{-1}$]		& CSM-S-Pol \ [$\pm 0.05$ RIU$^{-1}$]\\ \hline\hline
+%%$65^\circ$ & -- 			  &	$-3.66$ & $-2.08$\\
+%%$70^\circ$ & $27.2$ &	$-0.82$ & $0.42$\\
+%%$75^\circ$ & $12.7$ &	$1.47$  & $2.28$\\
+%%$80^\circ$ & $8.51$ &	$3.31$  & $3.09$
+%%\end{tabular}
+%\begin{tabular}{c||c|cc}
+%& SPP  	  & CSM-P-Pol 	 	& CSM-S-Pol \\ 
+%$\theta_i$  & [$\pm 0.2$ RIU$^{-1}$]	  &   [$\pm 0.05$ RIU$^{-1}$]		&  \ [$\pm 0.05$ RIU$^{-1}$]\\ \hline\hline
+%$65^\circ$ & -- 			  &	$-3.66$ & $-2.08$\\
+%$70^\circ$ & $27.2$ &	$-0.82$ & $0.42$\\
+%$75^\circ$ & $12.7$ &	$1.47$  & $2.28$\\
+%$80^\circ$ & $8.51$ &	$3.31$  & $3.09$
+%\end{tabular}
+%\end{minipage}\\
+%
+%\begin{minipage}{\linewidth} \centering
+%Al comparar el SPP para plata y la monocapa de NPs de plata:
+%\begin{tabular}{c||c|cc}
+%& SPP  	  & CSM-P-Pol 	 	& CSM-S-Pol \\ 
+%$\theta_i$ &  [$\pm 0.6$ RIU$^{-1}$]	  &   [$\pm 0.07$ RIU$^{-1}$]		&    [$\pm 0.04$ RIU$^{-1}$]\\ \hline\hline
+%$65^\circ$ & --			  &	$-2.64$ & $-0.59$\\
+%$70^\circ$ & $67.5$ &	$0.93$ & $1.88$\\
+%$75^\circ$ & $48.5$ &	$2.47$ & $3.19$\\
+%$80^\circ$ & $69.7$ &	$4.03$ & $4.37$
+%\end{tabular}
+%\end{minipage}
+\begin{minipage}{\linewidth} \centering
+\begin{tabular}{c||c||ccc}
+Au & SPP FOM	  & CSM-P-Pol FOM 	& CSM-S-Pol FOM\\ 
+$\theta_i$ &  [$\pm 0.6$ RIU$^{-1}$]	  &   [$\pm 0.07$ RIU$^{-1}$]		&    [$\pm 0.04$ RIU$^{-1}$]\\ \hline
+$65^\circ$ & --			  &	$-2.64$ & $-0.59$\\
+$70^\circ$ & $67.5$ &	$0.93$ & $1.88$\\
+$75^\circ$ & $48.5$ &	$2.47$ & $3.19$\\
+$80^\circ$ & $69.7$ &	$4.03$ & $4.37$\\
+\hline \hline
+Ag & SPP  FOM  & CSM-P-Pol FOM	& CSM-S-Pol FOM\\ 
+$\theta_i$ &  [$\pm 0.2$ RIU$^{-1}$]	  &   [$\pm 0.05$ RIU$^{-1}$]		&   [$\pm 0.05$ RIU$^{-1}$]\\ \hline
+$65^\circ$ & -- 			  &	$-3.66$ & $-2.08$\\
+$70^\circ$ & $27.2$ &	$-0.82$ & $0.42$\\
+$75^\circ$ & $12.7$ &	$1.47$  & $2.28$\\
+$80^\circ$ & $8.51$ &	$3.31$  & $3.09$
+\end{tabular}
+\end{minipage}
+}
+
+
+%-------modo plasmónico guiado---------------------------
+%-------nmodo---------------------------
+
+
+
+\headerbox{\ding{188} Conclusiones}{name=conclusiones,column=2,below=nmodo,span=2}{\footnotesize
+\begin{itemize}\compresslist\footnotesize
+\tick El {\bf\color{orange} CSM predice una excitación} colectiva (modo colectivo) que  puede emplearse como {\bf\color{orange} biosensor} al ser sensible a {\bf\color{orange}cambios en el índice de refracción de la matriz $\mathbf{n_m}$}. 
+\tick El {\bf\color{orange}modo colectivo} se sintoniza, al escoger el radio de las NPs y la fracción de cubierta de ésta, y se localiza a {\bf\color{orange} $\lambda$ mayor a la resonancia dipolar} de las NPs que conforman la monocapa.
+\tick A diferencia del SPP, {\bf\color{orange} el modo colectivo se presenta a ambas polarizaciones}.
+\tick El modo colectivo puede emplearse, en el rango del espectro visible, a cualquier ángulo, mientras que el SPP, no.
+\tick Para polarización P, el modo colectivo es más sensible que para polarización S.
+\tick Aunque la sensibilidad del SPP es mayor al modo colectivo porangeicho por el CSM, el {\color{orange} \bf modo colectivo puede correrse tanto al rojo como al azul} dependiendo del ángulo de incidencia.
+\end{itemize}
+}
+
+
+\headerbox{\ding{189} Referencias}{name=references,column=2,span=2,below=conclusiones}{
+\renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
+\begin{thebibliography}{99} \scriptsize \compresslist
+\bibitem{Lechuga} Estevez, M. C., Otte, M. A., Sepulveda, B., y Lechuga, L. M., \emph{Anal. Chim. Acta} {\bf 806}, 55–73 (2014).
+\bibitem{Kabashin2009} Kabashin, A. V., P. Evans, S. Pastkovsky, W. Hendren, G. A. Wurtz, R. Atkinson, R. Pollard, V. A. Podolskiy, y A. V. Zayats,  \emph{Nat. Mater.} {\bf 8}, 11 (2009)
+\bibitem{Danilov2018} Danilov, A., Tselikov, G., Wu, F., Kravets, V.G., Ozerov, I., Bedu, F., Grigorenko, A.N. y Kabashin, A.V., \emph{Biosens. Bioelectron.} {\bf 104} (2018).
+\bibitem{CSM} Garc\'ia-Valenzuela, A., Guti\'errez-Reyes, E., y Barrera, R. G. \textit{J. Opt Soc. Am. A} \textbf{6}, 29 (2012).
+\end{thebibliography}\footnotesize
+}
+
+\headerbox{{\scriptsize Agradecimeintos al proyecto PAPIIT-UNAM IA105917 y a la Facultad de Ciencias de la UNAM}}{name=thaks,column=2,span=2,below=references}{ \hfill}
+
+\end{poster}
+
+\end{document}
