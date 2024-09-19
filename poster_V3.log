@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  18 SEP 2024 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  18 SEP 2024 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1086,15 +1086,15 @@ Missing character: There is no ; in font nullfont!
 <figures/SeccTrans2.pdf, id=37, 615.29875pt x 423.5825pt>
 File: figures/SeccTrans2.pdf Graphic file (type pdf)
 <use figures/SeccTrans2.pdf>
-Package pdftex.def Info: figures/SeccTrans2.pdf  used on input line 197.
+Package pdftex.def Info: figures/SeccTrans2.pdf  used on input line 198.
 (pdftex.def)             Requested size: 307.64862pt x 211.79073pt.
 <figures/Resonances.pdf, id=38, 572.1375pt x 203.76125pt>
 File: figures/Resonances.pdf Graphic file (type pdf)
 <use figures/Resonances.pdf>
-Package pdftex.def Info: figures/Resonances.pdf  used on input line 197.
+Package pdftex.def Info: figures/Resonances.pdf  used on input line 198.
 (pdftex.def)             Requested size: 326.12175pt x 116.14511pt.
 
-Overfull \hbox (1.7124pt too wide) in paragraph at lines 197--197
+Overfull \hbox (1.7124pt too wide) in paragraph at lines 198--198
 [][] 
  []
 
@@ -1104,7 +1104,7 @@ Missing character: There is no ; in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 		}
+l.207 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1112,7 +1112,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.206 		}
+l.207 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1123,7 +1123,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 		}
+l.207 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1131,7 +1131,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.206 		}
+l.207 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1142,7 +1142,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 		}
+l.207 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1150,7 +1150,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.206 		}
+l.207 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1161,7 +1161,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 		}
+l.207 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1169,7 +1169,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.206 		}
+l.207 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1180,7 +1180,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 		}
+l.207 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1188,7 +1188,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.206 		}
+l.207 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1199,7 +1199,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 		}
+l.207 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1207,7 +1207,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.206 		}
+l.207 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1226,7 +1226,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 		}
+l.224 		}
          
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1300,7 +1300,7 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Poh/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Poh/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Poh/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on poster_V3.pdf (1 page, 2158960 bytes).
+Output written on poster_V3.pdf (1 page, 2158973 bytes).
 PDF statistics:
  589 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
