@@ -64,7 +64,7 @@
 	boxColorOne=white, % Background color of the content boxes
 	textborder=none, %rectangle, % Format of the border around content boxes, can be: none, bars, coils, triangles, rectangle, rounded, roundedsmall, roundedright or faded
 	eyecatcher=true, % Set to false for ignoring the left logo in the title and move the title left
-	headerheight=0.11\textheight, % Height of the header
+	headerheight=0.09\textheight, % Height of the header
 	headershape=rectangle, % Specify the rounded corner in the content box headers, can be: rectangle, small-rounded, roundedright, roundedleft or rounded
 	headerfont=\Large\textsf, % Large, bold and sans serif font in the headers of content boxes
 	%textfont={\setlength{\parindent}{1.5em}}, % Uncomment for paragraph indentation
@@ -75,27 +75,26 @@
 %	TITLE AND AUTHOR NAME
 %----------------------------------------------------------------------------------------
 %%
-{\includegraphics[width=2.85cm]{../figures/image(1)}
+{\includegraphics[width=2.7cm]{logo_unam}
 
 } 
 {%Titulo
-	\huge{\color{blueUNAM}{ %Sans Serif
+	\vspace{0.05em}\huge{\color{blueUNAM}{ %Sans Serif
 	{\noindent 
 	Localización espectral de resonancias plasmónicas en nanoesferas tipo Drude de tamaño arbitrario }}}
 }
 {%Autores
-	\normalsize%\vspace{-0.25em}\\ 
-	Luna González, Dana L.$^1$, Urrutia Anguiano, Jonathan A.$^2$  y Reyes Coronado, Alejandro$^3$
-	\vspace{0.1em}\\
+	\normalsize\vspace{0.5em}\\ 
+	{\color{mxpink}\textbf{Luna González, Dana L.$^1$}}, Urrutia Anguiano, Jonathan A.$^2$  y Reyes Coronado, Alejandro$^3$
+	\vspace{0.3em}\\
 	\footnotesize{Departamento de Física, Facultad de Ciencias, Universidad Nacional 	Autónoma de México
 	\vspace{0.2em}\\
-	$^1$dana.larissalg@ciencias.unam.mx,$^2$jaurrutia.95@ciencias.unam.mx, $^3$coronado@ciencias.unam.mx}
+	$^1$dana.larissalg@ciencias.unam.mx, $^2$jaurrutia.95@ciencias.unam.mx, $^3$coronado@ciencias.unam.mx}
 }
-{\includegraphics[width=2.85cm]{../figures/image}
-} %the author(s)      
-%-------Resumen---------------------------
-%-------abstract---------------------------
-\headerbox{ \textbf{1) Resumen}}{name=abstract,column=0,row=0, span=4}{\footnotesize 
+{\includegraphics[width=2.85cm]{logo_ciencias}
+} %the author(s)     
+\vspace*{-10cm} 
+\headerbox{ \textbf{ Resumen}}{name=abstract,column=0,row=0, span=4}{\footnotesize 
 La {\color{mxpink}\textbf{nanoplasmónica}} es el estudio de la respuesta electromagnética en sistemas con respuesta metálica a la nanoescala, es decir, con dimensiones menores a 100 nm. En sistemas espacialmente confinados a esta escala, se presenta el fenómeno de {\color{mxpink}\textbf{resonancia de plasmón de superficie localizado}}, resultado del acoplamiento entre los electrones libres de un metal con el campo electromagnético incidente que ilumina al sistema. Este fenómeno se puede emplear en aplicaciones como la espectroscopía y la medicina, debido a la sintonización de dichas resonancias a una frecuencia específica según las propiedades morfológicas del sistema. En este trabajo, se estudia teórica y numéricamente la localización espectral de las resonancias plasmónicas excitadas en {\color{mxpink}\textbf{partículas esféricas}} caracterizadas por una función dieléctrica descrita por el {\color{mxpink}\textbf{modelo de Drude}} en función de su radio.
 }
 %-------Resumen---------------------------
@@ -105,46 +104,66 @@ La {\color{mxpink}\textbf{nanoplasmónica}} es el estudio de la respuesta electr
 
 %-------Introducción---------------------------
 %-------intro---------------------------
-\headerbox{\textbf{2) Introducción}}{name=intro,column=0,below=abstract,span=2}{\footnotesize 
-La interacción de la luz con la materia es un fenómeno que tiene como consecuencia la {\color{mxpink}\textbf{absorción}} de parte de la luz incidente en la materia y el {\color{mxpink}\textbf{esparcimiento}} de luz por la materia en todas las direcciones, cuyo efecto combinado resulta en la {\color{mxpink}\textbf{extinción}} del rayo incidente \cite{Bohren}.\\
+\headerbox{\textbf{1) Introducción}}{name=intro,column=0,below=abstract,span=2}{\footnotesize 
+La interacción luz-materia puede estudiarse clásicamente mediante la {\color{mxpink}\textbf{absorción}} de parte de la luz incidente en la materia y el {\color{mxpink}\textbf{esparcimiento}} de luz por la materia en todas las direcciones, cuyo efecto combinado resulta en la {\color{mxpink}\textbf{extinción}} del rayo incidente \cite{Bohren}. En los últimos años, en muchos campos de la ciencia aplicada y la tecnología, se han estudiado las propiedades ópticas de partículas de diferentes formas y tamaños , en particular se ha estudiado la dependencia de la sección transversal de extinción del tamaño de las partículas esféricas para describir muestras coloidales.\\
+\begin{center}
+	\includegraphics[width=11cm]{Ref.pdf}
+\end{center}
 
-\begin{minipage}[c]{.48\linewidth}
-El problema de esparcimiento de luz dada una partícula de forma, tamaño y propiedades ópticas específicas iluminada por una onda plana monocromática consiste en conocer los campos electromagnéticos en todos los puntos de la partícula y en todos los puntos del medio homogéneo en el que está embebida \cite{Bohren}. Al caso particular de esparcimiento por una partícula esférica, la solución a este problema se le conoce como {\color{mxpink}\textbf{teoría de Mie}}. Esta es una solución analítica a las ecuaciones de Maxwell que describe la excitación de la {\color{mxpink}\textbf{resonancia plasmónica de superficie}}  para partículas metálicas esféricas iluminadas por una onda electromagnética plana.\\
-\end{minipage}
-\begin{minipage}[c]{.5\linewidth}
-	\centering
-	\includegraphics[width=6cm]{scattering.pdf}
-	\captionof{figure}{Partícula de índice de refracción $n_p$ inmersa en un medio de índice de refracción $n_m$. La partícula es iluminada por una onda plana monocromática ($\Vec{E}_i, \Vec{H}_{i}$) que produce campos dentro ($\Vec{E}_{int}, \Vec{H}_{int}$) y fuera de la partícula ($\Vec{E}_{sca}, \Vec{H}_{sca}$).}
-	\label{fig:sample_figure}
-\end{minipage}	
-	
-Los campos EMs dentro de la partícula y los esparcidos por esta son descritos mediante coeficientes que corresponden a contribuciones multipolares de {\color{mxpink}\textbf{modos eléctricos}} y {\color{mxpink}\textbf{magnéticos}} mejor conocidos como {\color{mxpink}\textbf{coeficientes de Mie}}. En particular, los coeficientes correspondientes al campo esparcido están dados por \cite{Bohren}:
-$$ {\scriptsize \tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{a_n=\frac{m\psi_n(mx)\psi_n'(x)-\psi_n(x)\psi_n'(mx)}{m\psi_n(mx)\xi_n'(x)-\xi_n(x)\psi_n'(mx)}, }\hspace{0.1 cm} \tcboxmath[colback=bluenice!15!white ,colframe=blueUNAM, size=title]{b_n=\frac{\psi_n(mx)\psi_n'(x)-m\psi_n(x)\psi_n'(mx)}{\psi_n(mx)\xi_n'(x)-m\xi_n(x)\psi_n'(mx)}, }}$$ 
-con $\psi_n(\rho)=\rho j_n(\rho)$ y $\xi_n(\rho)=\rho h_n^{(1)}(\rho)$ las funciones de Ricatti Bessel, $m=n_p/n_m$ y $x=2 \pi n_m/a$ el parámetro de tamaño.\\
 
-Mediante estos, puede calcularse la {\color{mxpink}\textbf{sección transversal de extinción}} dada por \cite{Bohren}:
-	$$ \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{C_{ext}=\frac{2\pi}{k^2}\sum_{n=1}^{\infty}(2n+1)\text{Re}\{a_n+b_n\}}$$
-cuyo máximo corresponde a la excitación del plasmón de superficie localizado.\\
+El problema de esparcimiento de luz dada una partícula de forma, tamaño y propiedades ópticas específicas iluminada por una onda plana monocromática consiste en conocer los campos electromagnéticos en todos los puntos de la partícula y en todos los puntos del medio homogéneo en el que está embebida \cite{Bohren}.
 
-En este trabajo se propone emplear el {\color{mxpink}\textbf{método de la sección dorada}} para determinar numéricamente la posición espectral de las resonancias plasmónicas de los primeros órdenes multipolares eléctricos y magnéticos, calculando la sección transversal de extinción para cada uno de ellos, e identificando la frecuencia que maximiza estas cantidades como la resonancia plasmónica de superficie.
+
 }
-%-------Introducción---------------------------
-%-------intro---------------------------
 
+
+\headerbox{ \textbf{ Teoría de Mie}}{name=MieTh,column=0,below=intro,span=2}{\footnotesize 
+ Al caso particular de esparcimiento por una partícula esférica, la solución a este problema se le conoce como {\color{mxpink}\textbf{teoría de Mie}}. Esta es una solución analítica a las ecuaciones de Maxwell que describe la excitación de la {\color{mxpink}\textbf{resonancia plasmónica de superficie}}  para partículas metálicas esféricas iluminadas por una onda electromagnética (EM) plana. Los campos EMs dentro de la partícula y los esparcidos por esta son descritos mediante coeficientes que corresponden a contribuciones multipolares de {\color{mxpink}\textbf{modos eléctricos}} y {\color{mxpink}\textbf{magnéticos}} mejor conocidos como {\color{mxpink}\textbf{coeficientes de Mie}}. En particular, los coeficientes correspondientes al campo esparcido están dados por \cite{Bohren}:\\
+\begin{minipage}[c]{.55\linewidth}
+	{\scriptsize
+$$  \tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{a_n=\frac{m\psi_n(mx)\psi_n'(x)-\psi_n(x)\psi_n'(mx)}{m\psi_n(mx)\xi_n'(x)-\xi_n(x)\psi_n'(mx)}, }$$ $$\tcboxmath[colback=bluenice!15!white ,colframe=blueUNAM, size=title]{b_n=\frac{\psi_n(mx)\psi_n'(x)-m\psi_n(x)\psi_n'(mx)}{\psi_n(mx)\xi_n'(x)-m\xi_n(x)\psi_n'(mx)}, }$$ 
+con $\psi_n(\rho)=\rho j_n(\rho)$ y $\xi_n(\rho)=\rho h_n^{(1)}(\rho)$ las funciones de Ricatti Bessel, $m=n_p/n_m$ y $x=2 \pi n_m/a$ el parámetro de tamaño. }
+\end{minipage}
+\begin{minipage}[c]{.45\linewidth}
+	\centering
+	\includegraphics[width=5cm]{scattering.pdf}
+	%\captionof{figure}{Partícula de índice de refracción $n_p$ inmersa en un medio de índice de refracción $n_m$. }
+	\label{fig:sample_figure}
+\end{minipage}	\\
+
+La {\color{mxpink}\textbf{sección transversal de extinción}} se escribe en términos de los coeficientes de Mie como \cite{Bohren}:
+	$$ \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{C_{ext}=\frac{2\pi}{k^2}\sum_{n=1}^{\infty}(2n+1)\text{Re}\{a_n+b_n\}}$$
+cuyo máximo corresponde a la excitación del plasmón de superficie localizado obtenido cuando el denominador  de los coeficientes de Mie es mínimo \cite{Novotny}.\\
+
+}
 
 
 %-------CSM---------------------------
 %-------csm---------------------------
-\headerbox{\textbf{2) Materiales plasmónicos}}{name=mdd,column=0,below=intro,span=2}{\footnotesize 
+\headerbox{\textbf{2) Materiales plasmónicos cuando $x\ll 1$}}{name=mdd,column=0,below=MieTh,span=2}{\footnotesize 
 	Cuando un material se encuentra en presencia de un campo magnético oscilante, al resolver la ecuación de movimiento que obedecen los electrones libres en el material, se obtiene la {\color{mxpink}\textbf{función dieléctrica tipo Drude}} \cite{Novotny, Ashcroft}
-
-$$ \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{\frac{\epsilon_D(\omega)}{\epsilon_0} =1-\frac{\omega_p^2}{\omega(\omega+i\gamma)},}$$
+	\begin{equation}
+		\tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{\frac{\epsilon_D(\omega)}{\epsilon_0} =1-\frac{\omega_p^2}{\omega(\omega+i\gamma)},}
+		\label{Drude}
+	\end{equation}
 donde $\gamma$ es la constante fenomenológica de amortiguamiento y $\omega_p$ la frecuencia de plasma.\\
 
- A partir de las ecuaciones de los coeficientes de Mie, se observa que, para un multipolo fijo, la contribución de los campos EMs en la sección transversal de extinción se maximiza cuando el denominador  de los coeficientes de Mie es mínimo \cite{Novotny}. Al considerar el {\color{mxpink}\textbf{límite de partícula pequeña}} ($x = k_ma \ll 1$) para esferas inmersas en vacío ($n_m = 1$),  se obtiene que los {\color{mxpink}\textbf{modos normales eléctricos}} y {\color{mxpink}\textbf{magnéticos}} cumplen las relaciones
- $$ \tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\epsilon_p(\omega_l)=-\frac{l+1}{l},}\hspace{0.5cm}\tcboxmath[colback=bluenice!15!white ,colframe=blueUNAM,size=title]{l=l-1, }$$
- respectivamente, donde se puede observar que no existe una solución para los modos normales magnéticos para ninguna $l$. Al emplear la función dieléctrica tipo Drude y considerar el límite $\gamma\rightarrow 0$, al despejar $\omega$ se obtiene la  expresión para la frecuencia de resonancia del modo normal eléctrico del multipolo $l$ dada por
-$$ \tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\frac{\omega_l}{\omega_p}=\sqrt{\frac{l}{2l+1}}.}$$
+  Al considerar el {\color{mxpink}\textbf{límite de partícula pequeña}} ($x = k_ma \ll 1$) para esferas inmersas en vacío ($n_m = 1$),  se obtiene que los {\color{mxpink}\textbf{modos normales}} cumplen las relaciones\\
+   
+  \begin{minipage}[c]{.55\linewidth}
+  \centerline{ {\color{orange}\textbf{Eléctricos} } }
+  $$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\epsilon_p(\omega_l)=-\frac{l+1}{l},}$$
+   Al emplear la Ec.\ref{Drude} y considerar el límite $\gamma\rightarrow0$, al despejar $\omega$ se obtiene 
+  $$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\frac{\omega_l}{\omega_p}=\sqrt{\frac{l}{2l+1}}.}$$
+  \end{minipage}
+  \raisebox{6.5ex}
+  {
+\begin{minipage}[b]{.35\linewidth}
+	\centerline{ {\color{blueUNAM}\textbf{Magnéticos} } }
+	$$\tcboxmath[colback=bluenice!15!white ,colframe=blueUNAM,size=title]{l\stackrel{!}{=}-(l+1), }
+	$$  
+\end{minipage}
+}
 }
 %-------CSM---------------------------
 %-------csm---------------------------
@@ -156,17 +175,16 @@ $$ \tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\frac{\omega_
 
 %-------modo plasmónico guiado---------------------------
 %-------nmodo---------------------------
-\headerbox{\textbf{4) Resultados}}{name=nmodo,span=2,column=2,below=abstract}{\footnotesize
-	Las resonancias de los materiales plasmónicos dependen del
-	parámetro adimensional $\tilde{a}=\omega_p a/c$, que compara la frecuencia de excitación $\omega$ con el
-	tiempo de acoplamiento $ac^{-1}$ entre la interacción EM de la esfera y la densidad de carga
-	inducida que corresponde al plasmón de superficie \cite{Aizpurua}. Por ello, se reescribieron los coeficientes de Mie, en términos de esta interacción, considerando las siguientes definiciones
-	$$n_p=\sqrt{1-\frac{1}{\tilde{\omega}(\tilde{\omega}+i\tilde{\gamma})}},\hspace{1cm}x=\tilde{\omega}\tilde{a}n_m.$$	
+\headerbox{\textbf{4) Resultados numéricos}}{name=nmodo,span=2,column=2,below=abstract}{\footnotesize
 	
-	En las siguientes figuras se muestran las contribuciones individuales de las secciones transversales de extinción de los multipolos $l = 1, 2, 3, 4$, $5$ eléctricos y magnéticos, en términos del parámetro $\tilde{\omega}$ y  $\tilde{\gamma}$, donde se consideró $\tilde{a}=5,n_m=1,
-\tilde{\gamma} =\gamma/\omega_p\approx 10^{-2}$.\\
+	Dado que para partículas de mayor radio, las resonancias deben de calcularse de forma numérica, se empleó el método de la sección dorada [pones referencia]. Se reescribieron $n_p$ y $x$ en términos de variables adimensionales
+	$$n_p=\sqrt{1-\frac{1}{\tilde{\omega}(\tilde{\omega}+i\tilde{\gamma})}},\hspace{1cm}x=\tilde{\omega}\tilde{a}n_m.$$	
+	donde $\omega_p a/c$ compara la frecuencia de excitación $\omega$ con el	tiempo de acoplamiento $ac^{-1}$ entre la interacción EM de la esfera y la densidad de carga
+	inducida que corresponde al plasmón de superficie \cite{Aizpurua}. 
+	
+	
 
-Además, se muestran las frecuencias de resonancia $\omega_l$ normalizadas respecto a la frecuencia de plasma $\omega_p$, como función del parámetro adimensional $\omega_p a/c$ para los multipolos $l = 1, 2, 3, 4$ y $5$.\\
+
 
 \begin{tikzpicture}
 	\node at (-2.5,5) {\footnotesize \textbf{Eléctricos}};
