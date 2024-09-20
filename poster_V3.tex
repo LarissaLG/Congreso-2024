@@ -39,7 +39,7 @@
 
 \graphicspath{{figures/}} % Directory in which figures are stoorange
 
-\newcommand*\tick{\item[\color{mxpink}  \blacksquare ]}
+\newcommand*\tick{\item[\color{orange}  \blacksquare ]}
 \newcommand{\compresslist}{%
 	\setlength{\itemsep}{0pt}%
 	\setlength{\parskip}{1pt}%
@@ -105,20 +105,20 @@
 		%-------Introducción---------------------------
 		%-------intro---------------------------
 		\headerbox{\textbf{1) Introducción}}{name=intro,column=0,below=abstract,span=2}{\footnotesize 
-			La interacción luz-materia puede estudiarse clásicamente mediante la {\color{mxpink}\textbf{absorción}} de parte de la luz incidente en la materia y el {\color{mxpink}\textbf{esparcimiento}} de luz por la materia en todas las direcciones, cuyo efecto combinado resulta en la {\color{mxpink}\textbf{extinción}} del rayo incidente \cite{Bohren}. En los últimos años, en muchos campos de la ciencia aplicada y la tecnología, se han estudiado las propiedades ópticas de partículas de diferentes formas y tamaños , en particular se ha estudiado la dependencia de la sección transversal de extinción del tamaño de las partículas esféricas para describir muestras coloidales.\\
+			La interacción luz-materia puede estudiarse clásicamente mediante la {\color{mxpink}\textbf{absorción}} de parte de la luz incidente en la materia y el {\color{mxpink}\textbf{esparcimiento}} de luz por la materia en todas las direcciones, cuyo efecto combinado resulta en la {\color{mxpink}\textbf{extinción}} del haz incidente \cite{Bohren}. En los últimos años, en muchos campos de la ciencia aplicada y la tecnología, se han estudiado las propiedades ópticas de partículas de diferentes formas y tamaños; en particular, se ha estudiado la dependencia de la sección transversal de extinción del tamaño de las partículas esféricas para describir muestras coloidales. \cite{Mendez}
 			\begin{center}
 				\includegraphics[width=11cm]{Ref.pdf}
+				{\scriptsize
+				Secciones transversales de extinción de nanopartículas de a) oro y b) plata de diferentes formas y tamaños. Tomada de \cite{Mendez}}
+				\label{fig:sample_figure}
 			\end{center}
-			
-			
-			El problema de esparcimiento de luz dada una partícula de forma, tamaño y propiedades ópticas específicas iluminada por una onda plana monocromática consiste en conocer los campos electromagnéticos en todos los puntos de la partícula y en todos los puntos del medio homogéneo en el que está embebida \cite{Bohren}.
 			
 			
 		}
 		
 		
-		\headerbox{ \textbf{ Teoría de Mie}}{name=MieTh,column=0,below=intro,span=2}{\footnotesize 
-			Al caso particular de esparcimiento por una partícula esférica, la solución a este problema se le conoce como {\color{mxpink}\textbf{teoría de Mie}}. Esta es una solución analítica a las ecuaciones de Maxwell que describe la excitación de la {\color{mxpink}\textbf{resonancia plasmónica de superficie}}  para partículas metálicas esféricas iluminadas por una onda electromagnética (EM) plana. Los campos EMs dentro de la partícula y los esparcidos por esta son descritos mediante coeficientes que corresponden a contribuciones multipolares de {\color{mxpink}\textbf{modos eléctricos}} y {\color{mxpink}\textbf{magnéticos}} mejor conocidos como {\color{mxpink}\textbf{coeficientes de Mie}}. En particular, los coeficientes correspondientes al campo esparcido están dados por \cite{Bohren}:\\
+		\headerbox{ \textbf{2) Teoría de Mie}}{name=MieTh,column=0,below=intro,span=2}{\footnotesize 
+			La solución al problema de esparcimiento dada una partícula esférica se conoce como {\color{mxpink}\textbf{teoría de Mie}}. Esta es una solución analítica a las ecuaciones de Maxwell que describe la excitación de la {\color{mxpink}\textbf{resonancia plasmónica de superficie}}  para partículas metálicas esféricas iluminadas por una onda electromagnética (EM) plana. Los campos EMs dentro de la partícula y los esparcidos por esta son descritos mediante coeficientes que corresponden a contribuciones multipolares de {\color{mxpink}\textbf{modos eléctricos}} y {\color{mxpink}\textbf{magnéticos}} mejor conocidos como {\color{mxpink}\textbf{coeficientes de Mie}}. En particular, los coeficientes correspondientes al campo esparcido están dados por \cite{Bohren}:\\
 			\begin{minipage}[c]{.55\linewidth}
 				{\scriptsize
 					$$  \tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{a_n=\frac{m\psi_n(mx)\psi_n'(x)-\psi_n(x)\psi_n'(mx)}{m\psi_n(mx)\xi_n'(x)-\xi_n(x)\psi_n'(mx)}, }$$ $$\tcboxmath[colback=bluenice!15!white ,colframe=blueUNAM, size=title]{b_n=\frac{\psi_n(mx)\psi_n'(x)-m\psi_n(x)\psi_n'(mx)}{\psi_n(mx)\xi_n'(x)-m\xi_n(x)\psi_n'(mx)}, }$$ 
@@ -155,15 +155,21 @@
 				$$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\epsilon_p(\omega_l)=-\frac{l+1}{l},}$$
 				Al emplear la Ec.\ref{Drude} y considerar el límite $\gamma\rightarrow0$, al despejar $\omega$ se obtiene 
 				$$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\frac{\omega_l}{\omega_p}=\sqrt{\frac{l}{2l+1}}.}$$
+				\begin{itemize}
+					\tick 	Para
+					$l=1, \hspace{1cm}\omega_p/\sqrt{3}$
+					\tick Para $\ell \rightarrow \infty, \hspace{0.7cm} \omega_p/\sqrt{2}$
+				\end{itemize}
 			\end{minipage}
-			\raisebox{6.5ex}
+			\raisebox{11ex}
 			{
 				\begin{minipage}[b]{.35\linewidth}
 					\centerline{ {\color{blueUNAM}\textbf{Magnéticos} } }
 					$$\tcboxmath[colback=bluenice!15!white ,colframe=blueUNAM,size=title]{l\stackrel{!}{=}-(l+1), }
-					$$  
+					$$
 				\end{minipage}
 			}
+		
 		}
 		%-------CSM---------------------------
 		%-------csm---------------------------
@@ -178,20 +184,16 @@
 		\headerbox{\textbf{4) Resultados numéricos}}{name=nmodo,span=2,column=2,below=abstract}{\footnotesize
 			
 			Dado que para partículas de mayor radio, las resonancias deben de calcularse de forma numérica, se empleó el método de la sección dorada [pones referencia]. Se reescribieron $n_p$ y $x$ en términos de variables adimensionales
-			$$n_p=\sqrt{1-\frac{1}{\tilde{\omega}(\tilde{\omega}+i\tilde{\gamma})}},\hspace{1cm}x=\tilde{\omega}\tilde{a}n_m.$$	
+			$$n_p=\sqrt{1-\frac{1}{\frac{\omega}{\omega_p}\left(\frac{\omega}{\omega_p}+i\frac{\gamma}{\omega_p}\right)}},\hspace{1cm}x=\frac{\gamma}{\omega_p}\frac{\omega_p a}{c}n_m.$$	
 			donde $\omega_p a/c$ compara la frecuencia de excitación $\omega$ con el	tiempo de acoplamiento $ac^{-1}$ entre la interacción EM de la esfera y la densidad de carga
-			inducida que corresponde al plasmón de superficie \cite{Aizpurua}. 
-			
-			se busca entonces encontra
-			
-			
-			
-			
+			inducida que corresponde al plasmón de superficie \cite{Aizpurua}. \\
+						
 			\begin{tikzpicture}
+				\node[inner sep=0pt] (graf) at (0,5.7){\includegraphics[scale=.45]{labels.pdf}};
 				\node at (-2.5,5) {\footnotesize \textbf{Eléctricos}};
 				\node at (3,5) {\footnotesize \textbf{Magnéticos}};
-				\node[inner sep=0pt] (graf) at (0,1){\includegraphics[scale=.5]{SeccTrans2.pdf}};
-				\node[inner sep=0pt] (graf) at (0,-4.5){\includegraphics[scale=.57]{Resonances.pdf}};
+				\node[inner sep=0pt] (graf) at (0,1.5){\includegraphics[scale=.45]{seccTrans.pdf}};
+				\node[inner sep=0pt] (graf) at (0,-4.7){\includegraphics[scale=.45]{Resonances.pdf}};
 			\end{tikzpicture}
 			
 			
@@ -200,10 +202,11 @@
 		\headerbox{\textbf{5) Conclusiones}}{name=conclusiones,column=2,below=nmodo,span=2}{
 			\footnotesize
 			\begin{itemize}
-				\tick La banda de frecuencias en la que las frecuencias de resonancia de los modos eléctricos se espera que se encuentren es $[\omega_{p}/\sqrt{3},\omega_{p}/\sqrt{2}]$, cuyos límites corresponden al modo plasmónico dipolar eléctrico y a la resonancia plasmónica de superficie de una esfera de radio infinito, es decir, a un plano infinito.
+				\tick La banda de frecuencias en la que las frecuencias de resonancia de los modos eléctricos se espera que se encuentren es $[\omega_{p}/\sqrt{3},\omega_{p}/\sqrt{2}]$. 
 				\tick Conforme el límite de partícula pequeña deja de ser válido se presenta un corrimiento al rojo de las resonancias plasmónicas de superficie localizadas de los modos eléctricos y magnéticos para partículas esféricas.
 				\tick No es posible calcular una aproximación de las frecuencias de resonancia de los modos normales magnéticos en el límite de partícula pequeña.
 			\end{itemize}
+
 		}
 		%-------modo plasmónico guiado---------------------------
 		%-------nmodo---------------------------
@@ -216,6 +219,7 @@
 			\renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
 			\begin{thebibliography}{99} \scriptsize \compresslist
 				\bibitem{Bohren} C.F. Bohren y D.R. Huffman , \textit{Absorption and scattering of light by small particles} (John Wiley \& Sons, 1980). 
+				\bibitem{Mendez}  E. R. Méndez et al., \textit{Particle size distribution from extinction and absorption data of metallic nanoparticles} (Appl. Opt. 58, 9955-9966, 2019). 
 				\bibitem{Novotny} L. Novotny, \textit{Principles of Nano-Optics} (Cambridge University Press, New York, 2006). 
 				\bibitem{Ashcroft} N.W. Ashcroft y N.D. Mermin, \textit{Solid State Physics}, \textit{Principles of Nano-Optics} (Saunders College, 1976). 
 				\bibitem{Aizpurua} J. Aizpurua, \textit{Coupling of electrons and electromagnetic surface modes in scanning transmission electron microscopy} (Tesis doctoral, Universidad de País Vasco, País Vasco, España,

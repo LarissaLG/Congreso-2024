@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  18 SEP 2024 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  19 SEP 2024 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,8 +898,12 @@ File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.3.0'
 ))) (poster_V3.aux
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+
+
+LaTeX Warning: Label `fig:sample_figure' multiply defined.
+
 )
 \openout1 = `poster_V3.aux'.
 
@@ -1028,11 +1032,6 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 9
 File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-
- []
-
 <figures/Ref.pdf, id=35, 517.84016pt x 128.0374pt>
 File: figures/Ref.pdf Graphic file (type pdf)
 <use figures/Ref.pdf>
@@ -1046,12 +1045,6 @@ File: figures/scattering.pdf Graphic file (type pdf)
 <use figures/scattering.pdf>
 Package pdftex.def Info: figures/scattering.pdf  used on input line 138.
 (pdftex.def)             Requested size: 142.26378pt x 95.0076pt.
-
-Underfull \hbox (badness 1097) in paragraph at lines 138--138
-\T1/cmr/m/n/8 me-dian-te co-efi-cien-tes que co-rres-pon-den a con-tri-bu-cio-n
-es mul-ti-po-la-res de []\T1/cmr/bx/n/8 mo-dos
- []
-
 
 Overfull \hbox (1.88841pt too wide) in paragraph at lines 138--138
 []$ $[]$ 
@@ -1071,30 +1064,116 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 
  []
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.173 		}
+         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\llap  #1->\hb@xt@ \z@ {\hss #1}
+                                
+l.173 		}
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.173 		}
+         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.173 		}
+         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.173 		}
+         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\llap  #1->\hb@xt@ \z@ {\hss #1}
+                                
+l.173 		}
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.173 		}
+         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.173 		}
+         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<figures/SeccTrans2.pdf, id=37, 615.29875pt x 423.5825pt>
-File: figures/SeccTrans2.pdf Graphic file (type pdf)
-<use figures/SeccTrans2.pdf>
-Package pdftex.def Info: figures/SeccTrans2.pdf  used on input line 198.
-(pdftex.def)             Requested size: 307.64862pt x 211.79073pt.
-<figures/Resonances.pdf, id=38, 572.1375pt x 203.76125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+
+ []
+
+<figures/labels.pdf, id=37, 491.64896pt x 27.32813pt>
+File: figures/labels.pdf Graphic file (type pdf)
+<use figures/labels.pdf>
+Package pdftex.def Info: figures/labels.pdf  used on input line 200.
+(pdftex.def)             Requested size: 221.23997pt x 12.29753pt.
+<figures/seccTrans.pdf, id=38, 739.33514pt x 403.34589pt>
+File: figures/seccTrans.pdf Graphic file (type pdf)
+<use figures/seccTrans.pdf>
+Package pdftex.def Info: figures/seccTrans.pdf  used on input line 200.
+(pdftex.def)             Requested size: 332.69774pt x 181.50397pt.
+<figures/Resonances.pdf, id=39, 742.775pt x 364.36125pt>
 File: figures/Resonances.pdf Graphic file (type pdf)
 <use figures/Resonances.pdf>
-Package pdftex.def Info: figures/Resonances.pdf  used on input line 198.
-(pdftex.def)             Requested size: 326.12175pt x 116.14511pt.
+Package pdftex.def Info: figures/Resonances.pdf  used on input line 200.
+(pdftex.def)             Requested size: 334.24565pt x 163.96104pt.
 
-Overfull \hbox (1.7124pt too wide) in paragraph at lines 198--198
+Overfull \hbox (9.8363pt too wide) in paragraph at lines 200--200
 [][] 
  []
 
@@ -1104,7 +1183,7 @@ Missing character: There is no ; in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.207 		}
+l.210 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1112,7 +1191,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.207 		}
+l.210 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1123,7 +1202,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.207 		}
+l.210 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1131,7 +1210,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.207 		}
+l.210 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1142,7 +1221,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.207 		}
+l.210 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1150,7 +1229,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.207 		}
+l.210 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1161,7 +1240,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.207 		}
+l.210 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1169,7 +1248,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.207 		}
+l.210 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1180,7 +1259,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.207 		}
+l.210 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1188,7 +1267,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.207 		}
+l.210 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1199,7 +1278,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.207 		}
+l.210 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1207,7 +1286,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.207 		}
+l.210 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1226,7 +1305,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224 		}
+l.228 		}
          
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1247,28 +1326,36 @@ ing.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/scattering.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
-> <./figures/SeccTrans2.pdf
+> <./figures/labels.pdf
 
-pdfTeX warning: pdflatex.exe (file ./figures/SeccTrans2.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./figures/labels.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./figures/seccTrans.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/seccTrans.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
 > <./figures/Resonances.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/Resonances.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
 >] (poster_V3.aux
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
 )
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 34020 strings out of 473898
- 845832 string characters out of 5727423
- 1972960 words of memory out of 5000000
- 56344 multiletter control sequences out of 15000+600000
+ 34030 strings out of 473898
+ 846061 string characters out of 5727423
+ 1974960 words of memory out of 5000000
+ 56354 multiletter control sequences out of 15000+600000
  575789 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,13n,121p,1011b,1412s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1300,9 +1387,9 @@ KTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Poh/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Poh/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Poh/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on poster_V3.pdf (1 page, 2158973 bytes).
+Output written on poster_V3.pdf (1 page, 2197844 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
+ 600 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
