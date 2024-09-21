@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  19 SEP 2024 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  20 SEP 2024 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -898,8 +898,8 @@ File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.3.0'
 ))) (poster_V3.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 
 
 LaTeX Warning: Label `fig:sample_figure' multiply defined.
@@ -1026,11 +1026,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 9
-9.
-(C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
-File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
 Missing character: There is no ; in font nullfont!
 <figures/Ref.pdf, id=35, 517.84016pt x 128.0374pt>
 File: figures/Ref.pdf Graphic file (type pdf)
@@ -1063,20 +1058,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--138
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-
- []
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.173 		}
+l.180 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1084,7 +1069,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.173 		}
+l.180 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1095,7 +1080,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.173 		}
+l.180 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1103,7 +1088,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.173 		}
+l.180 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1114,7 +1099,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.173 		}
+l.180 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1122,7 +1107,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.173 		}
+l.180 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1133,7 +1118,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.173 		}
+l.180 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1141,7 +1126,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.173 		}
+l.180 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1153,27 +1138,27 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 
  []
 
 <figures/labels.pdf, id=37, 491.64896pt x 27.32813pt>
 File: figures/labels.pdf Graphic file (type pdf)
 <use figures/labels.pdf>
-Package pdftex.def Info: figures/labels.pdf  used on input line 200.
-(pdftex.def)             Requested size: 221.23997pt x 12.29753pt.
-<figures/seccTrans.pdf, id=38, 739.33514pt x 403.34589pt>
+Package pdftex.def Info: figures/labels.pdf  used on input line 207.
+(pdftex.def)             Requested size: 260.5727pt x 14.48383pt.
+<figures/seccTrans.pdf, id=38, 755.39514pt x 414.38713pt>
 File: figures/seccTrans.pdf Graphic file (type pdf)
 <use figures/seccTrans.pdf>
-Package pdftex.def Info: figures/seccTrans.pdf  used on input line 200.
-(pdftex.def)             Requested size: 332.69774pt x 181.50397pt.
-<figures/Resonances.pdf, id=39, 742.775pt x 364.36125pt>
+Package pdftex.def Info: figures/seccTrans.pdf  used on input line 207.
+(pdftex.def)             Requested size: 332.3749pt x 182.3309pt.
+<figures/Resonances.pdf, id=39, 750.805pt x 369.38pt>
 File: figures/Resonances.pdf Graphic file (type pdf)
 <use figures/Resonances.pdf>
-Package pdftex.def Info: figures/Resonances.pdf  used on input line 200.
-(pdftex.def)             Requested size: 334.24565pt x 163.96104pt.
+Package pdftex.def Info: figures/Resonances.pdf  used on input line 207.
+(pdftex.def)             Requested size: 322.83986pt x 158.83029pt.
 
-Overfull \hbox (9.8363pt too wide) in paragraph at lines 200--200
+Overfull \hbox (7.96555pt too wide) in paragraph at lines 207--207
 [][] 
  []
 
@@ -1183,7 +1168,7 @@ Missing character: There is no ; in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.210 		}
+l.217 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1191,7 +1176,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.210 		}
+l.217 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1202,7 +1187,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.210 		}
+l.217 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1210,7 +1195,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.210 		}
+l.217 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1221,7 +1206,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.210 		}
+l.217 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1229,7 +1214,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.210 		}
+l.217 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1240,7 +1225,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.210 		}
+l.217 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1248,7 +1233,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.210 		}
+l.217 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1259,7 +1244,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.210 		}
+l.217 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1267,7 +1252,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \llap  #1->\hb@xt@ \z@ {\hss #1}
                                 
-l.210 		}
+l.217 		}
          
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1278,7 +1263,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.210 		}
+l.217 		}
          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1286,7 +1271,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.210 		}
+l.217 		}
          
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1305,7 +1290,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 		}
+l.238 		}
          
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1339,8 +1324,8 @@ tiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figures/Resonances.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
 >] (poster_V3.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 )
  ***********
 LaTeX2e <2024-06-01> patch level 2
@@ -1352,19 +1337,19 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34030 strings out of 473898
- 846061 string characters out of 5727423
- 1974960 words of memory out of 5000000
- 56354 multiletter control sequences out of 15000+600000
- 575789 words of font info for 78 fonts, out of 8000000 for 9000
+ 34005 strings out of 473898
+ 845283 string characters out of 5727423
+ 1975960 words of memory out of 5000000
+ 56334 multiletter control sequences out of 15000+600000
+ 574264 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,13n,121p,1011b,1412s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi525\ecss08
+ 117i,13n,121p,1036b,1426s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti05
 00.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-ti0700.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+rm0500.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecrm0700.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecbx0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecsx1440.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pi600\ecbx1440.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
 pen/ec/dpi600\ecrm0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/j
 knappen/ec/dpi600\ecrm1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfo
 ur/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/
@@ -1373,23 +1358,19 @@ eX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Poh/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Poh/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Poh/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/P
-oh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/U
-sers/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+oh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/U
+sers/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
 ><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr5.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Poh/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Poh/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Poh/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Poh/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on poster_V3.pdf (1 page, 2197844 bytes).
+6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on poster_V3.pdf (1 page, 2173517 bytes).
 PDF statistics:
- 600 PDF objects out of 1000 (max. 8388607)
+ 615 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
