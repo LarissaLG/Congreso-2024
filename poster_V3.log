@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  23 SEP 2024 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  29 SEP 2024 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -900,10 +900,6 @@ Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.3.0'
 ))) (poster_V3.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
-
-
-LaTeX Warning: Label `fig:sample_figure' multiply defined.
-
 )
 \openout1 = `poster_V3.aux'.
 
@@ -1027,26 +1023,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<figures/Ref.pdf, id=35, 517.84016pt x 128.0374pt>
-File: figures/Ref.pdf Graphic file (type pdf)
-<use figures/Ref.pdf>
-Package pdftex.def Info: figures/Ref.pdf  used on input line 120.
-(pdftex.def)             Requested size: 312.9803pt x 77.38763pt.
+<figures/temysem.pdf, id=35, 569.75616pt x 220.752pt>
+File: figures/temysem.pdf Graphic file (type pdf)
+<use figures/temysem.pdf>
+Package pdftex.def Info: figures/temysem.pdf  used on input line 129.
+(pdftex.def)             Requested size: 227.62204pt x 88.19144pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<figures/scattering.pdf, id=36, 523.35999pt x 349.50511pt>
-File: figures/scattering.pdf Graphic file (type pdf)
-<use figures/scattering.pdf>
-Package pdftex.def Info: figures/scattering.pdf  used on input line 141.
-(pdftex.def)             Requested size: 142.26378pt x 95.0076pt.
+<figures/scattering.png, id=36, 458.33633pt x 377.32167pt>
+File: figures/scattering.png Graphic file (type png)
+<use figures/scattering.png>
+Package pdftex.def Info: figures/scattering.png  used on input line 151.
+(pdftex.def)             Requested size: 142.26378pt x 117.1182pt.
 
-Overfull \hbox (1.88841pt too wide) in paragraph at lines 141--141
+Overfull \hbox (1.88841pt too wide) in paragraph at lines 151--151
 []$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 
  []
 
@@ -1054,101 +1050,12 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (1.88841pt too wide) in paragraph at lines 189--189
+Overfull \hbox (1.88841pt too wide) in paragraph at lines 198--198
 []$[]$ $[]$ 
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.189 		}
-         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Extra }, or forgotten $.
-\llap  #1->\hb@xt@ \z@ {\hss #1}
-                                
-l.189 		}
-         
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.189 		}
-         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.189 		}
-         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.189 		}
-         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-\llap  #1->\hb@xt@ \z@ {\hss #1}
-                                
-l.189 		}
-         
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.189 		}
-         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.189 		}
-         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 		}
-         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 
  []
 
@@ -1156,27 +1063,22 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
 
  []
 
 <figures/labels.pdf, id=37, 491.64896pt x 27.32813pt>
 File: figures/labels.pdf Graphic file (type pdf)
 <use figures/labels.pdf>
-Package pdftex.def Info: figures/labels.pdf  used on input line 216.
+Package pdftex.def Info: figures/labels.pdf  used on input line 229.
 (pdftex.def)             Requested size: 260.5727pt x 14.48383pt.
-<figures/seccTrans.pdf, id=38, 755.39514pt x 414.38713pt>
-File: figures/seccTrans.pdf Graphic file (type pdf)
-<use figures/seccTrans.pdf>
-Package pdftex.def Info: figures/seccTrans.pdf  used on input line 216.
-(pdftex.def)             Requested size: 332.3749pt x 182.3309pt.
-<figures/Resonances.pdf, id=39, 750.805pt x 378.41376pt>
-File: figures/Resonances.pdf Graphic file (type pdf)
-<use figures/Resonances.pdf>
-Package pdftex.def Info: figures/Resonances.pdf  used on input line 216.
-(pdftex.def)             Requested size: 322.83986pt x 162.71474pt.
+<figures/results.pdf, id=38, 765.18385pt x 636.60909pt>
+File: figures/results.pdf Graphic file (type pdf)
+<use figures/results.pdf>
+Package pdftex.def Info: figures/results.pdf  used on input line 229.
+(pdftex.def)             Requested size: 329.02264pt x 273.73657pt.
 
-Overfull \hbox (7.96555pt too wide) in paragraph at lines 216--216
+Overfull \hbox (4.61331pt too wide) in paragraph at lines 229--229
 [][] 
  []
 
@@ -1197,23 +1099,15 @@ Missing character: There is no ; in font nullfont!
 [2
 
 {C:/Users/Poh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/logo
-_unam.png> <./figures/logo_ciencias.png> <./figures/Ref.pdf> <./figures/scatter
-ing.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures/scattering.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
-> <./figures/labels.pdf
+_unam.png> <./figures/logo_ciencias.png> <./figures/temysem.pdf> <./figures/sca
+ttering.png> <./figures/labels.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/labels.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
-> <./figures/seccTrans.pdf
+> <./figures/results.pdf
 
-pdfTeX warning: pdflatex.exe (file ./figures/seccTrans.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
-> <./figures/Resonances.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures/Resonances.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./figures/results.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
 >] (poster_V3.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
@@ -1222,48 +1116,44 @@ LaTeX Info: Redefining \% on input line 28.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 34005 strings out of 473898
- 845293 string characters out of 5727423
- 1978960 words of memory out of 5000000
- 56334 multiletter control sequences out of 15000+600000
- 574624 words of font info for 77 fonts, out of 8000000 for 9000
+ 33999 strings out of 473898
+ 845057 string characters out of 5727423
+ 1979960 words of memory out of 5000000
+ 56327 multiletter control sequences out of 15000+600000
+ 575403 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,12n,121p,1037b,1412s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,13n,121p,1037b,1412s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti05
 00.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-rm0500.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm0700.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecbx1440.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecrm0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ecrm1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/Poh/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Poh/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Poh/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Poh/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/
-Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
-Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Poh/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Poh/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on poster_V3.pdf (1 page, 2196073 bytes).
+rm0700.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm0500.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\ecbx0500.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1440.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecrm0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/Poh/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Poh/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Poh/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Po
+h/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Us
+ers/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
+<C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Poh/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on poster_V3.pdf (1 page, 19996106 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
+ 701 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
