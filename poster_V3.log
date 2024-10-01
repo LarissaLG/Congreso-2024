@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  29 SEP 2024 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  1 OCT 2024 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,6 +822,53 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 yplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.21 
+     
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: \protect invalid in file name. Lost: \edef c...
+l.21 
+     
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.21 
+     
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Use of \??? doesn't match its definition.
+<argument> \???  
+                 ! LaTeX Error: \protect invalid in file name. Lost: \edef c...
+l.21 
+     
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+Runaway argument?
+\@nil \@pushfilename \xdef \@currname {\string@makeletter \reserved@a \ETC.
+! Paragraph ended before \reserved@c was complete.
+<to be read again> 
+                   \par 
+l.21 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
@@ -898,25 +945,25 @@ File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.3.0'
 ))) (poster_V3.aux
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `poster_V3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -975,13 +1022,13 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 50.
+ on input line 51.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -989,12 +1036,12 @@ Poster rendering started
 <figures/logo_unam.png, id=30, 1204.5pt x 1354.05875pt>
 File: figures/logo_unam.png Graphic file (type png)
 <use figures/logo_unam.png>
-Package pdftex.def Info: figures/logo_unam.png  used on input line 96.
+Package pdftex.def Info: figures/logo_unam.png  used on input line 97.
 (pdftex.def)             Requested size: 76.82234pt x 86.34334pt.
 <figures/logo_ciencias.png, id=32, 468.75125pt x 536.0025pt>
 File: figures/logo_ciencias.png Graphic file (type png)
 <use figures/logo_ciencias.png>
-Package pdftex.def Info: figures/logo_ciencias.png  used on input line 96.
+Package pdftex.def Info: figures/logo_ciencias.png  used on input line 97.
 (pdftex.def)             Requested size: 81.09052pt x 92.72224pt.
 
 ! LaTeX Error: There's no line here to end.
@@ -1003,18 +1050,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 		}
+l.97 		}
          %the author(s)
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
 
 
 (C:\Users\Poh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1023,39 +1070,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<figures/temysem.pdf, id=35, 569.75616pt x 220.752pt>
-File: figures/temysem.pdf Graphic file (type pdf)
-<use figures/temysem.pdf>
-Package pdftex.def Info: figures/temysem.pdf  used on input line 129.
-(pdftex.def)             Requested size: 227.62204pt x 88.19144pt.
+<figures/flower.pdf, id=35, 214.13419pt x 154.32657pt>
+File: figures/flower.pdf Graphic file (type pdf)
+<use figures/flower.pdf>
+Package pdftex.def Info: figures/flower.pdf  used on input line 129.
+(pdftex.def)             Requested size: 113.81102pt x 82.02345pt.
+<figures/dipoleelectric.pdf, id=36, 527.85156pt x 260.8559pt>
+File: figures/dipoleelectric.pdf Graphic file (type pdf)
+<use figures/dipoleelectric.pdf>
+Package pdftex.def Info: figures/dipoleelectric.pdf  used on input line 129.
+(pdftex.def)             Requested size: 184.9429pt x 91.39645pt.
+
+Overfull \hbox (1.88841pt too wide) in paragraph at lines 129--129
+[]$[]$ $[]$ 
+ []
+
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<figures/scattering.png, id=36, 458.33633pt x 377.32167pt>
+<figures/scattering.png, id=37, 4765.30313pt x 3554.78062pt>
 File: figures/scattering.png Graphic file (type png)
 <use figures/scattering.png>
-Package pdftex.def Info: figures/scattering.png  used on input line 151.
-(pdftex.def)             Requested size: 142.26378pt x 117.1182pt.
+Package pdftex.def Info: figures/scattering.png  used on input line 146.
+(pdftex.def)             Requested size: 142.26378pt x 106.0964pt.
 
-Overfull \hbox (1.88841pt too wide) in paragraph at lines 151--151
+Overfull \hbox (1.88841pt too wide) in paragraph at lines 146--146
 []$ $[]$ 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-
- []
-
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (1.88841pt too wide) in paragraph at lines 198--198
+Overfull \hbox (1.88841pt too wide) in paragraph at lines 196--196
 []$[]$ $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
@@ -1063,25 +1115,15 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 
  []
 
-<figures/labels.pdf, id=37, 491.64896pt x 27.32813pt>
-File: figures/labels.pdf Graphic file (type pdf)
-<use figures/labels.pdf>
-Package pdftex.def Info: figures/labels.pdf  used on input line 229.
-(pdftex.def)             Requested size: 260.5727pt x 14.48383pt.
-<figures/results.pdf, id=38, 765.18385pt x 636.60909pt>
+<figures/results.pdf, id=38, 741.89708pt x 776.80338pt>
 File: figures/results.pdf Graphic file (type pdf)
 <use figures/results.pdf>
-Package pdftex.def Info: figures/results.pdf  used on input line 229.
-(pdftex.def)             Requested size: 329.02264pt x 273.73657pt.
-
-Overfull \hbox (4.61331pt too wide) in paragraph at lines 229--229
-[][] 
- []
-
+Package pdftex.def Info: figures/results.pdf  used on input line 222.
+(pdftex.def)             Requested size: 319.00952pt x 334.01894pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1099,18 +1141,18 @@ Missing character: There is no ; in font nullfont!
 [2
 
 {C:/Users/Poh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/logo
-_unam.png> <./figures/logo_ciencias.png> <./figures/temysem.pdf> <./figures/sca
-ttering.png> <./figures/labels.pdf
+_unam.png> <./figures/logo_ciencias.png> <./figures/flower.pdf> <./figures/dipo
+leelectric.pdf
 
-pdfTeX warning: pdflatex.exe (file ./figures/labels.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
-> <./figures/results.pdf
+pdfTeX warning: pdflatex.exe (file ./figures/dipoleelectric.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figures/scattering.png> <./figures/results.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/results.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >] (poster_V3.aux
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
  ***********
 LaTeX2e <2024-06-01> patch level 2
@@ -1118,42 +1160,43 @@ L3 programming layer <2024-08-16>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33999 strings out of 473898
- 845057 string characters out of 5727423
+ 34003 strings out of 473898
+ 845224 string characters out of 5727423
  1979960 words of memory out of 5000000
- 56327 multiletter control sequences out of 15000+600000
- 575403 words of font info for 78 fonts, out of 8000000 for 9000
+ 56330 multiletter control sequences out of 15000+600000
+ 576184 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,13n,121p,1037b,1412s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti05
+ 117i,15n,121p,2184b,1443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx05
 00.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-rm0700.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+ti0500.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecrm0500.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecbx0500.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1440.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ecrm0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/Poh/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Poh/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Poh/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Po
-h/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Us
-ers/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
-<C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Poh/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Poh/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on poster_V3.pdf (1 page, 19996106 bytes).
+pi600\ecbx0700.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecrm0700.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1440.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecbx0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Poh\AppData\Local\MiKTeX\f
+onts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/Poh/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Poh/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Poh/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/User
+s/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C
+:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.
+pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr6.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Poh/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Poh/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Poh/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on poster_V3.pdf (1 page, 18580718 bytes).
 PDF statistics:
- 701 PDF objects out of 1000 (max. 8388607)
+ 710 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
