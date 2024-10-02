@@ -123,6 +123,9 @@
 			\begin{minipage}[c]{.65\linewidth}
 				\centering
 				\includegraphics[width=6.5cm]{dipoleelectric.pdf}
+				\begin{singlespace}
+					\tiny GitHub: jaurrutia/Mie-Theory-Mathematica.
+				\end{singlespace}
 			\end{minipage}	
 		
 			
@@ -141,7 +144,7 @@
 				\includegraphics[width=5cm]{scattering.png}
 			\end{minipage}	\\
 		 funciones esféricas de Hankel de primer tipo $h_{\ell}^{(1)}$,  $m=n_p/n_m$  y $x=2 \pi n_m/a$ el parámetro de tamaño. La {\color{mxpink}\textbf{sección transversal de extinción}} se escribe en términos de los coeficientes de Mie como \cite{Bohren}:
-			$$ \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{C_{ext}=\frac{2\pi}{k^2}\sum_{n=1}^{\infty}(2n+1)\:\text{Re}\{a_{\ell}+b_{\ell}\},}$$
+			$$ \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{C_{ext}=\frac{2\pi}{k^2}\sum_{\ell=1}^{\infty}(2\ell+1)\:\text{Re}\{a_{\ell}+b_{\ell}\},}$$
 			donde $\text{Re}\{\cdot\}$ representa la parte real de un número complejo.			
 		}
 		
@@ -150,18 +153,20 @@
 		%-------csm---------------------------
 		\headerbox{\textbf{3) Esferas plasmónicas en el límite $k_m a \ll 1$
 		}}{name=mdd,column=0,below=MieTh,span=2}{\footnotesize 
-			La respuesta electromagnética de un metal puede describirse mediante su índice de refracción dado en términos del  {\color{mxpink}\textbf{modelo de Drude}}, que representa la solución de la ecuación de movimiento de los electrones libres de un material en presencia de un campo eléctrico oscilante  \cite{Novotny}, el cual está dado por: 
+			La respuesta electromagnética de un metal puede describirse mediante el  {\color{mxpink}\textbf{modelo de Drude}}, que describe clásicamente las interacciones de los electrones libres de un material en presencia de un campo eléctrico oscilante  \cite{Novotny}, el cual está dado por: 
 			
-			\begin{minipage}[c]{0.55\textwidth}
-				$$\text{(1)}\hspace{1cm} \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{n_p =\sqrt{1-\frac{\omega_p^2}{\omega(\omega+i\gamma)}},}$$
+			\begin{minipage}[c]{0.45\textwidth}
+				$$\text{(1)}\hspace{1cm} \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{\epsilon_p =\sqrt{1-\frac{\omega_p^2}{\omega(\omega+i\gamma)}}.}$$
 			\end{minipage}
-				\begin{minipage}[c]{0.45\textwidth}
-				donde $\omega_p$ es la frecuencia de plasma y $\gamma$ la constante fenomenológica de amortiguamiento, ambos parámetros propios de cada material.
+				\begin{minipage}[c]{0.55\textwidth}
+				$\epsilon_p$: función dieléctrica de la partícula\\
+				$\omega_p$: frecuencia de plasma\\
+				$\gamma$: constante fenomenológica de amortiguamiento
 			\end{minipage}			
 			
 			
 			\vspace{0.2cm}
-			Considerando el límite de partícula pequeña, la expansión de las funciones de Ricatti-Bessel \cite{Abramowitz} y $n_m=1$, al minimizar el denominador de los coeficientes de Mie, se puede obtener una relación sencilla para las condiciones de resonancia:\\
+			Considerando el límite de partícula pequeña, la expansión de las funciones de Ricatti-Bessel \cite{Abramowitz} y $n_m=1$, al minimizar el denominador de los coeficientes de Mie, se obtienen las condiciones de excitación de las LSPR de una esfera:\\
 			
 		
 			\begin{minipage}[c]{.55\linewidth}
@@ -169,25 +174,27 @@
 				
 				\vspace{-0.1cm}
 				$$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{n_p(\omega_\ell)=\sqrt{-\frac{\ell+1}{\ell}},}$$
-				Al emplear la Ec. (1) y considerar el límite 
+				al emplear la Ec. (1) y considerar el límite 
 				
-				$\gamma\rightarrow0$, al despejar $\omega$ se obtiene 
-				$$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\omega_\ell=\omega_p\sqrt{\frac{\ell}{2\ell+1}}.}$$
-				Para
-				$\ell=1$, \hspace{0.5cm} $\omega_p/\sqrt{3}$\hspace{1cm}{\scriptsize{\color{orange} Dipolo eléctrico} }
+				$\gamma\rightarrow0$, al despejar $\omega$ se obtiene: 
+				$$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\frac{\omega_\ell}{\omega_p}=\sqrt{\frac{\ell}{2\ell+1}}.}$$
 				
-				Para $\ell \rightarrow \infty$, \hspace{0.25cm} $\omega_p/\sqrt{2} $ \hspace{0.3cm} {\scriptsize {\color{orange} Plasmón de superficie} {\color{white}jkakakaka kakakaka kakakkaa  jgi }{\color{orange}de superficie}}
+				 {\color{white}jka}{\scriptsize{\color{orange} Dipolo eléctrico} }\hspace{1.1cm} $\omega_1/\omega_p=1/\sqrt{3}$
+			
+				 {\scriptsize{\color{orange} Plasmón de superficie} }
+				 
+				 {\color{white}jkah}{\scriptsize\color{orange}de superficie} \hspace{1.17cm} $\omega_{\infty}/\omega_p=1/\sqrt{2}$	
 			\end{minipage}
 			\raisebox{5.7ex}{
 				\begin{minipage}[c]{.4\linewidth}
 					\centerline{ {\color{blueUNAM}\textbf{Multipolos magnéticos} } }	
 					
 					\vspace{-0.1cm}				
-					$$\tcboxmath[colback=bluenice!15!white ,colframe=blueUNAM,size=title]{\ell\stackrel{!}{=}-(\ell+1), }
+					$$\tcboxmath[colback=bluenice!15!white ,colframe=blueUNAM,size=title]{\ell\stackrel{!}{=}-(\ell+1). }
 					$$ 
 					
 					\vspace{2mm}
-					como $\ell$ es entero, se llega a una contradicción.
+					\centerline{No soluble para $\ell$ entero.}
 					
 					\tcbox[tikznode, colback=bluenice!15!white ,colframe=blueUNAM,size=title]{No existe solución para\\los modos magnéticos en este\\régimen.}
 				\end{minipage}}
@@ -206,27 +213,26 @@
 		%-------nmodo---------------------------
 		\headerbox{\textbf{4) Resultados numéricos}}{name=nmodo,span=2,column=2,below=abstract}{\footnotesize
 			
-			Para partículas de mayor radio que en el límite de partícula pequeña, las resonancias se calculan de forma numérica, por lo que se empleó el {\color{mxpink}\textbf{método de la sección dorada}} \cite{Golden}. Para el cálculo numérico, se optó por reescribir el modelo de Drude y el parámetro de tamaño en función de las variables adimensionales $\omega/\omega_p$, $\gamma/\omega_p$ y $a\omega_p /c$, como 
+			Fuera del régimen de partícula pequeña, las resonancias se calculan de forma numérica. En este trabajo se optó por emplear el {\color{mxpink}\textbf{método de la sección dorada}} \cite{Golden}, así como reescribir $\varepsilon_p$ y el parámetro de tamaño en función de las variables adimensionales $\omega/\omega_p$, $\gamma/\omega_p$ y $a\omega_p /c$, como:
 			$$n_p=\left(1-\frac{1}{\frac{\omega}{\omega_p}\left(\frac{\omega}{\omega_p}+i\frac{\gamma}{\omega_p}\right)}\right)^{1/2},\hspace{1cm}x=\frac{\omega}{\omega_p}\frac{a\omega_p }{c}n_m,$$	
 			donde $a\omega_p /c$ compara la frecuencia de excitación $\omega$ con el	tiempo de acoplamiento $a/c$ entre la interacción EM de la esfera y la densidad de carga
-			inducida asociada a su correspondiente plasmón de superficie en la esfera \cite{Aizpurua}. 
-			
-			\vspace{2mm}
-			Se graficaron las secciones transversales de extinción $C_{ext}$ en función de $\omega/\omega_p$ para los primeros cinco multipolos para distintos valores de $a\omega_p /c$. Mediante el método de la sección dorada, se encontraron las frecuencias $\omega_l$ que maximizan la sección transversal de extinción y se graficó $\omega_l/\omega_p$ en función de $a\omega_p /c$.\\
+			inducida asociada a su correspondiente plasmón de superficie en la esfera \cite{Aizpurua}. \\
+		
 						
 			\begin{tikzpicture}
 				\node at (-2.5,7) {\footnotesize \textbf{Multipolos eléctricos}};
 				\node at (3,7) {\footnotesize \textbf{Multipolos magnéticos}};
-				\node[inner sep=0pt] (graf) at (0,1){\includegraphics[scale=.43]{results.pdf}};
+				\node[inner sep=0pt] (graf) at (0,0.7){\includegraphics[scale=.44]{results.pdf}};
 			\end{tikzpicture}
 		}
 		
 		\headerbox{\textbf{5) Conclusiones}}{name=conclusiones,column=2,below=nmodo,span=2}{
 			\footnotesize
 			\begin{itemize}
-					\item[\textcolor{mxpink}{\ding{212}}] No es posible calcular una aproximación de las frecuencias de resonancia de los modos normales magnéticos en el límite de partícula pequeña.
-				\item[\textcolor{mxpink}{\ding{212}}] Conforme el radio de la partícula tiende a cero, se recupera lo obtenido analíticamente mediante el límite de partícula pequeña para los modos eléctricos y magnéticos.
-				\item[\textcolor{mxpink}{\ding{212}}] Para partículas esféricas, conforme el límite de partícula pequeña deja de ser válido, se presenta un corrimiento al rojo de las SPRs.
+					\item[\textcolor{mxpink}{\ding{212}}] No es posible calcular una aproximación de las frecuencias de excitación de las LSPRs de  los modos normales magnéticos en el límite de partícula pequeña.
+				\item[\textcolor{mxpink}{\ding{212}}] Conforme el radio de la partícula tiende a cero, se recupera lo obtenido analíticamente mediante el límite de partícula pequeña para los modos eléctricos.
+				\item[\textcolor{mxpink}{\ding{212}}] Las LSPRs magnéticas, en el límite de partícula pequeña, se excitan a frecuencias que tienden a infinito.
+				\item[\textcolor{mxpink}{\ding{212}}] Para partículas esféricas, conforme el límite de partícula pequeña deja de ser válido, se presenta un corrimiento al rojo de las LSPRs.
 				 
 					
 			\end{itemize}
