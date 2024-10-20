@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  1 OCT 2024 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.14)  9 OCT 2024 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1088,11 +1088,11 @@ Overfull \hbox (1.88841pt too wide) in paragraph at lines 132--132
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<figures/scattering.png, id=37, 4755.51656pt x 3518.64563pt>
+<figures/scattering.png, id=37, 4834.56187pt x 3542.73563pt>
 File: figures/scattering.png Graphic file (type png)
 <use figures/scattering.png>
 Package pdftex.def Info: figures/scattering.png  used on input line 149.
-(pdftex.def)             Requested size: 142.26378pt x 105.23267pt.
+(pdftex.def)             Requested size: 142.26378pt x 104.22328pt.
 
 Overfull \hbox (1.88841pt too wide) in paragraph at lines 149--149
 []$ $[]$ 
@@ -1101,36 +1101,52 @@ Overfull \hbox (1.88841pt too wide) in paragraph at lines 149--149
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+! Missing { inserted.
+<to be read again> 
+                   _
+l.207 		}
+         
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Overfull \hbox (1.88841pt too wide) in paragraph at lines 203--203
-[]$[]$ $[]$ 
+! Missing } inserted.
+<inserted text> 
+                }
+l.207 		}
+         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
-
- []
-
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 
  []
 
 <figures/results.pdf, id=38, 741.89708pt x 776.80338pt>
 File: figures/results.pdf Graphic file (type pdf)
 <use figures/results.pdf>
-Package pdftex.def Info: figures/results.pdf  used on input line 227.
+Package pdftex.def Info: figures/results.pdf  used on input line 231.
 (pdftex.def)             Requested size: 326.43573pt x 341.79454pt.
 
-Overfull \hbox (2.0264pt too wide) in paragraph at lines 227--227
+Overfull \hbox (2.0264pt too wide) in paragraph at lines 231--231
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
 
  []
 
@@ -1170,13 +1186,13 @@ L3 programming layer <2024-08-16>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 34001 strings out of 473898
- 845172 string characters out of 5727423
- 1977960 words of memory out of 5000000
- 56328 multiletter control sequences out of 15000+600000
+ 34007 strings out of 473898
+ 845293 string characters out of 5727423
+ 1979960 words of memory out of 5000000
+ 56334 multiletter control sequences out of 15000+600000
  576184 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,15n,121p,2184b,1443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,15n,121p,2185b,1443s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx05
 00.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
 ti0500.pk> <C:\Users\Poh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
@@ -1204,9 +1220,9 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Poh/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Poh/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Poh/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on poster_V3.pdf (1 page, 18486272 bytes).
+Output written on poster_V3.pdf (1 page, 18515910 bytes).
 PDF statistics:
- 714 PDF objects out of 1000 (max. 8388607)
+ 718 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

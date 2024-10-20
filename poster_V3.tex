@@ -66,7 +66,7 @@
 			boxColorOne=white, % Background color of the content boxes
 			textborder=none, %rectangle, % Format of the border around content boxes, can be: none, bars, coils, triangles, rectangle, rounded, roundedsmall, roundedright or faded
 			eyecatcher=true, % Set to false for ignoring the left logo in the title and move the title left
-			headerheight=0.09\textheight, % Height of the header
+			headerheight=0.1\textheight, % Height of the header
 			headershape=rectangle, % Specify the rounded corner in the content box headers, can be: rectangle, small-rounded, roundedright, roundedleft or rounded
 			headerfont=\Large, % Large, bold and sans serif font in the headers of content boxes
 			%textfont={\setlength{\parindent}{1.5em}}, % Uncomment for paragraph indentation
@@ -97,7 +97,7 @@
 		} %the author(s)     
 		\vspace*{-10cm} 
 		\headerbox{ \textbf{ Resumen}}{name=abstract,column=0,row=0, span=4}{\scriptsize \begin{singlespace}
-				La {\color{mxpink}\textbf{nanoplasmónica}} es el estudio de la respuesta electromagnética en sistemas con respuesta metálica a la nanoescala, es decir, con dimensiones menores a 100 nm. En sistemas espacialmente confinados a esta escala, se presenta el fenómeno de {\color{mxpink}\textbf{resonancia de plasmón de superficie localizado}}, resultado del acoplamiento entre los electrones libres de un metal con el campo electromagnético incidente que ilumina al sistema. Este fenómeno se puede emplear en aplicaciones como la espectroscopía y la medicina, debido a la sintonización de dichas resonancias a una frecuencia específica según las propiedades morfológicas del sistema. La teoría de Mie es una solución analítica a las ecuaciones de Maxwell que describe la excitación de la resonancia plasmónica de superficie para partículas metálicas esféricas iluminadas por una onda electromagnética plana mediante una suma de contribuciones multipolares de modos eléctricos y magnéticos, con los cuales puede calcularse la sección transversal de extinción, cuyo máximo corresponde a la excitación del plasmón de superficie localizado. En este trabajo, se estudia teórica y numéricamente la localización espectral de las resonancias plasmónicas excitadas en {\color{mxpink}\textbf{partículas esféricas}} caracterizadas por una función dieléctrica descrita por el {\color{mxpink}\textbf{modelo de Drude}} en función de su {\color{mxpink}\textbf{radio}}. Para determinar numéricamente la posición espectral de las resonancias plasmónicas de los primeros órdenes multipolares eléctricos y magnéticos, se calcula la sección transversal de extinción para cada uno de ellos, y se identifica la frecuencia que maximiza estas cantidades. Finalmente, se contrastan los resultados obtenidos con la condición de resonancia en el {\color{mxpink}\textbf{límite de partícula pequeña}} obtenida analíticamente. Con base en los resultados, se presentan curvas del corrimiento al rojo de las resonancias plasmónicas de superficie localizadas para partículas esféricas conforme el límite de partícula pequeña deja de ser válido.
+				La {\color{mxpink}\textbf{nanoplasmónica}} es el estudio de la respuesta electromagnética en sistemas con respuesta metálica a la nanoescala, es decir, con dimensiones menores a 100 nm. En sistemas espacialmente confinados a esta escala, se presenta el fenómeno de {\color{mxpink}\textbf{resonancia de plasmón de superficie localizado}}, resultado del acoplamiento entre los electrones libres de un metal con el campo electromagnético incidente que ilumina al sistema. Éste fenómeno se puede emplear en aplicaciones como la espectroscopía y la medicina, debido a la sintonización de dichas resonancias a una frecuencia específica según las propiedades morfológicas del sistema. La {\color{mxpink}\textbf{teoría de Mie}} es una solución analítica a las ecuaciones de Maxwell que describe la excitación de la resonancia plasmónica de superficie para partículas metálicas esféricas iluminadas por una onda electromagnética plana mediante una suma de contribuciones multipolares de modos eléctricos y magnéticos, con los cuales puede calcularse la sección transversal de extinción, cuyo máximo corresponde a la excitación del plasmón de superficie localizado. En este trabajo, se estudia teórica y numéricamente la localización espectral de las resonancias plasmónicas excitadas en {\color{mxpink}\textbf{partículas esféricas}} caracterizadas por una función dieléctrica descrita por el {\color{mxpink}\textbf{modelo de Drude}} en función de su radio. Para determinar numéricamente la posición espectral de las resonancias plasmónicas de los primeros órdenes multipolares eléctricos y magnéticos, se calcula la sección transversal de extinción para cada uno de ellos, y se identifica la frecuencia que maximiza estas cantidades. Finalmente, se contrastan los resultados obtenidos con la condición de resonancia en el {\color{mxpink}\textbf{límite de partícula pequeña}} obtenida analíticamente. Con base en los resultados, se presentan curvas del corrimiento al rojo de las resonancias plasmónicas de superficie localizadas para partículas esféricas conforme el límite de partícula pequeña deja de ser válido.
 			\end{singlespace}
 			
 		}
@@ -109,7 +109,7 @@
 		%-------Introducción---------------------------
 		%-------intro---------------------------
 		\headerbox{\textbf{1) Introducción}}{name=intro,column=0,below=abstract,span=2}{\footnotesize 
-			La interacción luz-materia puede estudiarse clásicamente mediante la {\color{mxpink}\textbf{absorción}} y el {\color{mxpink}\textbf{esparcimiento}}, cuyo efecto combinado resulta en la {\color{mxpink}\textbf{extinción}} del haz incidente \cite{Bohren}. En los últimos años, se han estudiado las propiedades ópticas de partículas de diferentes formas y tamaños debido a sus potenciales aplicaciones en ciencia aplicada y nanotecnología \cite{Mendez}.
+			La {\color{mxpink}\textbf{interacción luz-materia}} puede estudiarse clásicamente mediante la {\color{mxpink}\textbf{absorción}} y el {\color{mxpink}\textbf{esparcimiento}}, cuyo efecto combinado resulta en la {\color{mxpink}\textbf{extinción}} del haz incidente \cite{Bohren}. En los últimos años, se han estudiado las propiedades ópticas de partículas de diferentes formas y tamaños debido a sus potenciales aplicaciones en ciencia aplicada y nanotecnología \cite{Mendez}.
 			
 			
 			\begin{minipage}[c]{.35\linewidth}
@@ -133,7 +133,7 @@
 		
 		
 		\headerbox{ \textbf{2) Teoría de Mie}}{name=MieTh,column=0,below=intro,span=2}{\footnotesize 
-			La solución al problema de absorción  y esparcimiento de luz por una {\color{mxpink}\textbf{partícula esférica}} se conoce como {\color{mxpink}\textbf{teoría de Mie}}. Esta es una solución analítica a las ecuaciones de Maxwell que, para partículas metálicas iluminadas por una onda electromagnética (EM) plana, describe la excitación de la {\color{mxpink}\textbf{resonancia plasmónica de superficie localizada}} (LSPR). Los campos EMs dentro de la partícula y los esparcidos por ésta se escriben como una combinación lineal de modos multipolares eléctricos y magnéticos modulados por los denominados {\color{mxpink}\textbf{coeficientes de Mie}}. En particular, los coeficientes correspondientes al campo esparcido están dados por \cite{Bohren}:\\
+			La solución al problema de absorción  y esparcimiento de luz por una {\color{mxpink}\textbf{partícula esférica}} se conoce como {\color{mxpink}\textbf{teoría de Mie}}. Ésta es una solución analítica a las ecuaciones de Maxwell que, para partículas metálicas iluminadas por una onda electromagnética (EM) plana, describe la excitación de la {\color{mxpink}\textbf{resonancia plasmónica de superficie localizada}} (LSPR). Los campos EMs dentro de la partícula y los esparcidos por ésta se escriben como una combinación lineal de modos multipolares eléctricos y magnéticos modulados por los denominados {\color{mxpink}\textbf{coeficientes de Mie}}. En particular, los coeficientes correspondientes al campo esparcido están dados por \cite{Bohren}:\\
 			\begin{minipage}[c]{.55\linewidth}
 				{\footnotesize
 					$$  \tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{a_\ell=\frac{m\psi_{\ell}(mx)\psi_{\ell}'(x)-\psi_{\ell}(x)\psi_{\ell}'(mx)}{m\psi_{\ell}(mx)\xi_{\ell}'(x)-\xi_{\ell}(x)\psi_{\ell}'(mx)}, }$$ $$\tcboxmath[colback=bluenice!15!white ,colframe=blueUNAM, size=title]{b_{\ell}=\frac{\psi_{\ell}(mx)\psi_{\ell}'(x)-m\psi_{\ell}(x)\psi_{\ell}'(mx)}{\psi_{\ell}(mx)\xi_{\ell}'(x)-m\xi_{\ell}(x)\psi_{\ell}'(mx)}, }$$ 
@@ -143,7 +143,7 @@
 				%\centering
 				\includegraphics[width=5cm]{scattering.png}
 			\end{minipage}	\\
-		 funciones esféricas de Hankel de primer tipo $h_{\ell}^{(1)}$,  $m=n_p/n_m$  y $x=2 \pi n_m/a$ el parámetro de tamaño. La {\color{mxpink}\textbf{sección transversal de extinción}} se escribe en términos de los coeficientes de Mie como \cite{Bohren}:
+		 funciones esféricas de Hankel de primer tipo $h_{\ell}^{(1)}$,  $m=\sqrt{\epsilon_p/\epsilon_m}$  y $x=2 \pi n_m/a$ el parámetro de tamaño. La {\color{mxpink}\textbf{sección transversal de extinción}} está dada en términos de los coeficientes de Mie como \cite{Bohren}:
 			$$ \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{C_{ext}=\frac{2\pi}{k^2}\sum_{\ell=1}^{\infty}(2\ell+1)\:\text{Re}\{a_{\ell}+b_{\ell}\},}$$
 			donde $\text{Re}\{\cdot\}$ representa la parte real de un número complejo.			
 		}
@@ -153,39 +153,43 @@
 		%-------csm---------------------------
 		\headerbox{\textbf{3) Esferas plasmónicas en el límite $k_m a \ll 1$
 		}}{name=mdd,column=0,below=MieTh,span=2}{\footnotesize 
-			La respuesta electromagnética de un metal puede describirse mediante el  {\color{mxpink}\textbf{modelo de Drude}}, que describe clásicamente las interacciones de los electrones libres de un material en presencia de un campo eléctrico oscilante  \cite{Novotny}, el cual está dado por: 
+			La respuesta electromagnética de un metal puede describirse mediante el  {\color{mxpink}\textbf{modelo de Drude}}, el cual considera las interacción entre los electrones libres de un material  y un campo eléctrico armónico, proporcionando la función dieléctrica $\epsilon_p(\omega)$ para un metal \cite{Novotny}: 
 			
-			\begin{minipage}[c]{0.45\textwidth}
-				$$\text{(1)}\hspace{1cm} \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{\epsilon_p =\sqrt{1-\frac{\omega_p^2}{\omega(\omega+i\gamma)}}.}$$
+			\begin{minipage}[c]{0.57\textwidth}
+				$$\text{(1)}\hspace{1cm} \tcboxmath[colback=greenMathematica!15!white ,colframe=greenMathematica,size=title]{\epsilon_p(\omega) =1-\frac{\omega_p^2}{\omega(\omega+i\gamma)}.}$$
 			\end{minipage}
-				\begin{minipage}[c]{0.55\textwidth}
-				$\epsilon_p$: función dieléctrica de la partícula\\
-				$\omega_p$: frecuencia de plasma\\
-				$\gamma$: constante fenomenológica de amortiguamiento
+				\begin{minipage}[c]{0.42\textwidth}
+					\begin{tikzpicture}
+						\node at (-1.5,6.5) {$\omega_p$: frecuencia de plasma};
+						\node at (-0.9,6.2) {	$\gamma$: constante fenomenológica de };
+						\node at (-1.45,5.9) {amortiguamiento};
+					\end{tikzpicture}
 			\end{minipage}			
 			
 			
 			\vspace{0.2cm}
-			Considerando el límite de partícula pequeña, la expansión de las funciones de Ricatti-Bessel \cite{Abramowitz} y $n_m=1$, al minimizar el denominador de los coeficientes de Mie, se obtienen las condiciones de excitación de las LSPR de una esfera:\\
+			Considerando el límite de partícula pequeña, la expansión de las funciones de Ricatti-Bessel \cite{Abramowitz} y $\epsilon__m=1$, al minimizar el denominador de los coeficientes de Mie, se obtienen las condiciones de excitación de las LSPRs de una esfera:\\
 			
 		
 			\begin{minipage}[c]{.55\linewidth}
 				\centerline{ {\color{orange}\textbf{Multipolos eléctricos} } }
 				
 				\vspace{-0.1cm}
-				$$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{n_p(\omega_\ell)=\sqrt{-\frac{\ell+1}{\ell}},}$$
+				$$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\epsilon_p(\omega_\ell)=-\frac{\ell+1}{\ell},}$$
 				al emplear la Ec. (1) y considerar el límite 
 				
-				$\gamma\rightarrow0$, al despejar $\omega$ se obtiene: 
+				$\gamma\rightarrow0$, al despejar $\omega_{\ell}$ se obtiene: 
 				$$\tcboxmath[colback=orange!15!white ,colframe=orange,size=title]{\frac{\omega_\ell}{\omega_p}=\sqrt{\frac{\ell}{2\ell+1}}.}$$
 				
-				 {\color{white}jka}{\scriptsize{\color{orange} Dipolo eléctrico} }\hspace{1.1cm} $\omega_1/\omega_p=1/\sqrt{3}$
-			
-				 {\scriptsize{\color{orange} Plasmón de superficie} }
-				 
-				 {\color{white}jkah}{\scriptsize\color{orange}de superficie} \hspace{1.17cm} $\omega_{\infty}/\omega_p=1/\sqrt{2}$	
+					\begin{tikzpicture}
+					\node at (-1.5,7) {\scriptsize{\color{orange} Dipolo eléctrico}};
+					\node at (1.5,7) {\footnotesize $\omega_1/\omega_p=1/\sqrt{3}$};
+					\node at (-1.5,6.5) {\scriptsize{\color{orange} Plasmón de superficie}};
+					\node at (-1.4,6.2) {\scriptsize{\color{orange} de superficie}};
+					\node at (1.45,6.5) {\footnotesize $\omega_{\infty}/\omega_p=1/\sqrt{2}$};					
+				\end{tikzpicture}
 			\end{minipage}
-			\raisebox{5.7ex}{
+			\raisebox{6.9ex}{
 				\begin{minipage}[c]{.4\linewidth}
 					\centerline{ {\color{blueUNAM}\textbf{Multipolos magnéticos} } }	
 					
@@ -213,8 +217,8 @@
 		%-------nmodo---------------------------
 		\headerbox{\textbf{4) Resultados numéricos}}{name=nmodo,span=2,column=2,below=abstract}{\footnotesize
 			
-			Fuera del régimen de partícula pequeña, las resonancias se calculan de forma numérica. En este trabajo se optó por emplear el {\color{mxpink}\textbf{método de la sección dorada}} \cite{Golden}, así como reescribir $\varepsilon_p$ y el parámetro de tamaño en función de las variables adimensionales $\omega/\omega_p$, $\gamma/\omega_p$ y $a\omega_p /c$, como:
-			$$n_p=\left(1-\frac{1}{\frac{\omega}{\omega_p}\left(\frac{\omega}{\omega_p}+i\frac{\gamma}{\omega_p}\right)}\right)^{1/2},\hspace{1cm}x=\frac{\omega}{\omega_p}\frac{a\omega_p }{c}n_m,$$	
+			Fuera del régimen de partícula pequeña, las frecuencias de resonancia $\omega_\ell$  se calculan de forma numérica. En este trabajo se optó por emplear el {\color{mxpink}\textbf{método de la sección dorada}} \cite{Golden}, así como reescribir $\varepsilon_p$ y el parámetro de tamaño en función de las variables adimensionales $\omega/\omega_p$, $\gamma/\omega_p$ y $a\omega_p /c$, como:
+			$$\epsilon_p(\omega)=1-\frac{1}{\frac{\omega}{\omega_p}\left(\frac{\omega}{\omega_p}+i\frac{\gamma}{\omega_p}\right)},\hspace{1cm}x=\frac{\omega}{\omega_p}\frac{a\omega_p }{c}n_m,$$	
 			donde $a\omega_p /c$ compara la frecuencia de excitación $\omega$ con el	tiempo de acoplamiento $a/c$ entre la interacción EM de la esfera y la densidad de carga
 			inducida asociada a su correspondiente plasmón de superficie en la esfera \cite{Aizpurua}. \\
 		
@@ -229,9 +233,8 @@
 		\headerbox{\textbf{5) Conclusiones}}{name=conclusiones,column=2,below=nmodo,span=2}{
 			\footnotesize
 			\begin{itemize}
-					\item[\textcolor{mxpink}{\ding{212}}] No es posible calcular una aproximación de las frecuencias de excitación de las LSPRs de  los modos normales magnéticos en el límite de partícula pequeña.
 				\item[\textcolor{mxpink}{\ding{212}}] Conforme el radio de la partícula tiende a cero, se recupera lo obtenido analíticamente mediante el límite de partícula pequeña para los modos eléctricos.
-				\item[\textcolor{mxpink}{\ding{212}}] Las LSPRs magnéticas, en el límite de partícula pequeña, se excitan a frecuencias que tienden a infinito.
+				\item[\textcolor{mxpink}{\ding{212}}] No es posible calcular una aproximación de las frecuencias de excitación de las LSPRs de  los modos normales magnéticos en el límite de partícula pequeña.
 				\item[\textcolor{mxpink}{\ding{212}}] Para partículas esféricas, conforme el límite de partícula pequeña deja de ser válido, se presenta un corrimiento al rojo de las LSPRs.
 				 
 					
@@ -247,7 +250,8 @@
 		
 		\headerbox{\textbf{6) Referencias}}{name=references,column=2,span=2,below=conclusiones}{
 			\renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
-			\begin{thebibliography}{99} \tiny \compresslist
+			\begin{thebibliography}{99} 
+				\tiny \compresslist
 				\bibitem{Bohren} C.F. Bohren y D.R. Huffman, \textit{Absorption and scattering of light by small particles} (John Wiley \& Sons, 1980). 
 				\bibitem{Mendez}  A. Loiseau et al., \textit{Silver-Based Plasmonic Nanoparticles for and Their Use in Biosensing}, Biosensors (Basel) \textbf{78}, 9(2) (2019). 
 				\bibitem{Novotny} L. Novotny, \textit{Principles of Nano-Optics} (Cambridge University Press, New York, 2006). 
